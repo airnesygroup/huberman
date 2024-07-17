@@ -6,7 +6,7 @@ import CarouselListClient from "./CarouselListClient";
 
 const getData = async (page, cat) => {
   const res = await fetch(
-    `huberman-c8wuu19aw-alexandermbelenzis-projects.vercel.app/api/postsimg?page=${page}&cat=${cat || ""}`,
+    `https://huberman-l939fqmvq-alexandermbelenzis-projects.vercel.app/api/postsimg?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }

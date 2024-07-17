@@ -6,7 +6,7 @@ import Card from "../card/Card";
 
 const getData = async (page, cat) => {
   const res = await fetch(
-    `https://huberman-azure.vercel.app/api/posts?page=${page}&cat=${cat || ""}`,
+    `https://huberman-azure.vercel.app/api/postsimg?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }
@@ -29,7 +29,7 @@ const CardList = async ({ page, cat }) => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Recent Post</h1>
+      <h1 className={styles.title}>Recent Posts</h1>
       <div className={styles.posts}>
         {posts?.map((item) => (
           <Card item={item} key={item._id} />

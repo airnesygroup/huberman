@@ -1,0 +1,54 @@
+/* carouselList.module.css */
+.container {
+  position: relative;
+  overflow: hidden;
+max-width: 1400px;
+padding-top: 35px;
+
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.posts {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.carouselItem {
+  flex: 0 0 auto;
+  width: 280px;
+  margin-right: 10px;
+}
+
+.chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.chevron.left {
+  left: 10px; /* Adjusted position to be slightly to the left */
+}
+
+.chevron.right {
+  right: 10px; /* Keep the right position adjustment */
+}
+
+.chevronIcon {
+  color: white;
+  font-size: 24px;
+}

@@ -1,0 +1,16 @@
+.title{
+  background-color: #199dc9;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 15px;
+
+}
+
+.content{
+  display: flex;
+  gap: 50px;
+}
+
+

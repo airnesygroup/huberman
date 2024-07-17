@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out the logo and links */
+  width: 100%;
+  max-width: 1400px; /* Adjust max-width as per your layout */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Optional: Add some padding */
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.logo {
+  color: #ffbc00;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align links to the right */
+  gap: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .logo {
+    font-size: 32px;
+  }
+  .links {
+    font-size: 18px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .social {
+    display: none;
+  }
+  .logo {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .links {
+    justify-content: flex-end;
+  }
+  .link {
+    display: none;
+  }
+}

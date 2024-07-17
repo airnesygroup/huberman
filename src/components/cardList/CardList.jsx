@@ -6,7 +6,7 @@ import Card from "../card/Card";
 
 const getData = async (page, cat) => {
   const res = await fetch(
-    `https://huberman-azure.vercel.app/api/posts?page=${page}&cat=${cat || ""}`,
+    `huberman-c8wuu19aw-alexandermbelenzis-projects.vercel.app/api/posts?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }

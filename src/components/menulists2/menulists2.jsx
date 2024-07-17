@@ -4,7 +4,7 @@ import MenuPosts2 from "../Menuposts2/menuposts2";
 
 const getData = async (page, cat) => {
   const res = await fetch(
-    `http://localhost:3000/api/post2?page=${page}&cat=${cat || ""}`,
+    `https://huberman-azure.vercel.app/api/post2?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }

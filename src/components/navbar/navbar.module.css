@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
+
 }
 
 .wrapper {
@@ -17,7 +18,17 @@
   width: 100%;
   max-width: 1400px; /* Adjust max-width as per your layout */
   margin: 0 auto; /* Center the container */
-  padding: 0 20px; /* Optional: Add some padding */
+  padding: 0 8px; /* Optional: Add some padding */
+  padding-left: 10px;
+
+}
+
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: 10px 0;
 }
 
 .social {
@@ -26,24 +37,126 @@
   flex: 1;
 }
 
+
+.theme {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust this value to add space between logo and text */
+  width: 25px; /* Default width for larger screens */
+  height: 25px; /* Default height for larger screens */
+  position: relative; /* Required for layout="fill" */
+}
+
+.themeImage {
+  object-fit: contain; /* Ensure the image scales correctly */
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+
 .logo {
-  color: #ffbc00;
-  font-size: 36px;
-  font-weight: bold;
+  display: flex;
+  margin-left: 2px;
+  align-items: center;
+  gap: 10px; /* Adjust this value to add space between logo and text */
+  width: 40px; /* Default width for larger screens */
+  height: 40px; /* Default height for larger screens */
+  position: relative; /* Required for layout="fill" */
+}
+
+.logoImage {
+  object-fit: contain; /* Ensure the image scales correctly */
+  width: 100%;
+  height: 100%;
+}
+
+.logoText {
+  font-size: 24px;
+  color: #ff6600;
+  padding-left: 49px;
+
+  line-height: 1; /* Ensure text aligns properly with the logo image */
 }
 
 .links {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Align links to the right */
+  justify-content: flex-end;
   gap: 20px;
   font-size: 20px;
 }
 
+
+/* Existing CSS... */
+
+.searchContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center the search bar */
+  align-items: center;
+  padding: 0 20px; /* Add some padding if needed */
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 500px; /* Adjust the max-width as needed */
+  height: 38px; /* Adjust height */
+  padding: 0 10px; /* Add padding inside the search bar */
+  border: 1px solid; /* Add border */
+  background-color: var(--softBg);
+  border-color: var(--softBg);
+  border-radius: 50px; /* Add border radius */
+  font-size: 16px; /* Adjust font size */
+  outline: none; /* Remove default focus outline */
+}
+
 @media screen and (max-width: 1280px) {
-  .logo {
-    font-size: 32px;
+  .searchBar {
+    max-width: 400px; /* Adjust for smaller screens */
+    height: 35px;
   }
+}
+
+@media screen and (max-width: 1024px) {
+  .searchBar {
+    max-width: 300px; /* Adjust for smaller screens */
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .searchBar {
+    max-width: 300px; /* Adjust for smaller screens */
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .searchBar {
+   display:none;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+
+  .theme {
+    width: 28px;
+    height: 28px;
+  }
+
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logoText {
+    font-size: 20px;
+    padding-left: 44px;
+
+  }
+  
   .links {
     font-size: 18px;
     gap: 15px;
@@ -51,25 +164,76 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+  .theme {
+    width: 26px;
+    height: 26px;
+  }
+
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+
   .social {
     display: none;
   }
-  .logo {
-    text-align: left;
-  }
-}
+  
+  .logoText {
+    font-size: 20px;
+    padding-left: 39px;
+
+  } }
 
 @media screen and (max-width: 768px) {
+  .theme {
+    width: 24px;
+    height: 24px;
+  }
   .logo {
-    font-size: 24px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .logoText {
+    font-size: 18px;
+    padding-left: 34px;
+
   }
 }
 
 @media screen and (max-width: 640px) {
+
+  .theme {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logo {
+    width: 28px;
+    height: 28px;
+  }
+  .logoText {
+    font-size: 16px;
+    padding-left: 30px;
+
+  }
+
   .links {
     justify-content: flex-end;
   }
+
   .link {
     display: none;
   }
+
+  .wrapper {
+    padding: 0 6px;
+  }
+
+  .container {
+    height: 35px;
+  }
+
+
 }

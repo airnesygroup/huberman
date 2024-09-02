@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+
+
+
+
+
 a {
   color: inherit;
   text-decoration: none;
@@ -24,15 +29,29 @@ a {
 .dark {
   --bg: #020203;
   --textColor: #dfecf5;
-  --softBg: #1f273a;
-  --softTextColor: #a6a6a6;
+  --bg2: #000000;
+  --bd: #303030;
+  --transparentBg: rgba(1, 1, 2, 0.7);
+
+  --softBg1: rgb(87, 85, 85);
+
+  --softBg: rgb(43, 42, 42);
+  --softerBg: rgb(27, 27, 27);
+
+  --softTextColor: #c4c4c4;
 }
 
 .light {
   --bg:#fcfeff ;
   --textColor: #0F1419;
-  --softBg: #f0f0f0;
-  --softTextColor: #626262;
+  --bg2:#ffffff ;
+  --bd:#fcfeff ;
+  --softBg1: #c1c2c4;
+  --transparentBg: rgba(252, 254, 255, 0.7);
+  --softBg: #EBECEE;
+  --softerBg: #f5f6f8;
+
+  --softTextColor: #3d3d3d;
 }
 
 .container {
@@ -42,40 +61,39 @@ a {
 }
 
 .wrapper {
-  max-width: 1536px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-@media screen and (max-width: 1536px) {
-  .wrapper {
-    max-width: 1366px;
-  }
+/* styles/globals.css */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Regular.woff2') format('woff2'),
+       url('/fonts/inter/Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
-@media screen and (max-width: 1280px) {
-  .wrapper {
-    max-width: 1024px;
-  }
+
+/* Add other font weights and styles as needed */
+
+
+
+
+body {
+  background-color: var(--bg);
+  color: var(--textColor);
 }
-@media screen and (max-width: 1024px) {
-  .wrapper {
-    max-width: 768px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .wrapper {
-    max-width: 640px;
-  }
-}
+
 @media screen and (max-width: 640px) {
+
   .wrapper {
-    max-width: 475px;
+    padding: 0 6px;
   }
 }
+
 
 .ql-container{
   font-size: 28px !important;

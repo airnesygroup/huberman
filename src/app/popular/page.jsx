@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "./popularPage.module.css";
 import Featured from "@/components/featured/Featured";
 import CategoryList from "@/components/categoryList/CategoryList";
-import CardList from "@/components/cardList/CardList";
+import CardList2 from "@/components/cardList2/CardList2";
 import SidebarCategoryList from "@/components/SidebarcategoryList/SidebarCategoryList";
 import Menu from "@/components/Menu/Menu";
 import CarouselList from "@/components/carouselList/CarouselList";
@@ -35,7 +35,7 @@ const PopularPage = ({ searchParams }) => {
         <CarouselList page={page} />
 
         <div className={styles.content1}>
-          <CardList page={page} />
+          <CardList2 page={page} />
 
           <Menu />
         </div>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./popular.module.css";
+import styles from "./popularPage.module.css";
 import Featured from "@/components/featured/Featured";
 import CategoryList from "@/components/categoryList/CategoryList";
 import CardList from "@/components/cardList/CardList";

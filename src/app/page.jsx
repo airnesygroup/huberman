@@ -8,6 +8,7 @@ import Menu from "@/components/Menu/Menu";
 import CarouselList from "@/components/carouselList/CarouselList";
 import Controls from "@/components/Controls";
 import Trending from "@/components/Trending";
+import AddIcon from "@/components/Addicon";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 export default function Home({ searchParams }) {
@@ -17,6 +18,7 @@ export default function Home({ searchParams }) {
     <div className={styles.container}>
                     <Navbar/>
                     <Trending/>
+                    <AddIcon/>
 
               <SidebarCategoryList/>
               <Controls/>

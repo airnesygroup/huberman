@@ -6,12 +6,13 @@ import Footer from "@/components/footer/Footer";
 import { ThemeContextProvider } from "@/context/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
 import AuthProvider from "@/providers/AuthProvider";
+import Controls from "@/components/Controls";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Huberman Lab",
-  description: "The Huberman Lab blog is published by Dr. Andrew Huberman, a neuroscientist and tenured professor of neurobiology and ophthalmology at Stanford School of Medicine. The blog discusses neuroscience and science-based tools, including how our brain and its connections with the organs of our body control our perceptions, our behaviors, and our health, as well as existing and emerging tools for measuring and changing how our nervous system works.",
+  title: "Airnesy - What's trending",
+  description: "Airnesy – Discover what’s trending now. From viral sensations to breaking news, join millions of viewers and stay in tune with the moments that matter most. Explore the hottest trends with all the live commentary.",
 };
 
 export default function RootLayout({ children }) {
@@ -23,9 +24,8 @@ export default function RootLayout({ children }) {
             <ThemeProvider>
               <div className="container">
                 <div className="wrapper">
-                  <Navbar />
                   {children}
-                  <Footer />
+                  <Controls />
                 </div>
               </div>
             </ThemeProvider>

@@ -4,14 +4,14 @@
 
 .title {
   margin: 28px 0px; /* Default margin for larger screens */
-  font-size: 2rem; /* Default font size for larger screens */
+  font-size: 1.5rem; /* Default font size for larger screens */
 }
 
 /* For medium screens (tablets) */
 @media (max-width: 1000px) {
   .title {
     margin: 20px 0px; /* Reduced margin for medium screens */
-    font-size: 1.5rem; /* Smaller font size for medium screens */
+    font-size: 1.25rem; /* Smaller font size for medium screens */
   }
 }
 

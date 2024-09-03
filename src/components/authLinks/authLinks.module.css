@@ -41,7 +41,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--bg);
+  background: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 50%;
   display: flex;
@@ -51,7 +51,7 @@
   padding-top: 50px;
   gap: 20px;
   font-size: 24px;
-  z-index: 999;
+  z-index: 1000;
   transition: transform 0.3s ease-in-out;
 }
 

@@ -66,7 +66,12 @@
 }
 
 .logout {
-  display: inline; /* Change this to inline to ensure it displays on large screens */
+  cursor: pointer;
+  background-color: #ff6600;
+  border-radius: 15px;
+  padding: 5px;
+  color: #fff;
+
 }
 
 @media screen and (max-width: 720px) {

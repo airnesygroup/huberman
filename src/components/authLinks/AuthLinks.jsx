@@ -67,7 +67,6 @@ const AuthLinks = () => {
           </div>
           <div className={styles.overlay} onClick={handleMenuClick}>
 
-          <Link href="/" onClick={handleMenuClick}>About</Link>
 
           </div>
         </>

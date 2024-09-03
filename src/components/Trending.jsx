@@ -55,7 +55,6 @@ const Trending = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
 
   return (

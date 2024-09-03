@@ -37,9 +37,9 @@ const Trending = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
-        setIsVisible(false);
-      } else {
         setIsVisible(true);
+      } else {
+        setIsVisible(false);
       }
       setLastScrollY(window.scrollY);
     };

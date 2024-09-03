@@ -16,15 +16,11 @@ export const GET = async (req) => {
     where: {
       ...(cat && { catSlug: cat }),
     },
+    orderBy: {
+      views: "desc", // Orders by the 'views' field in descending order
+    },
   };
 
-
-
-
-
-
-  
-  
   try {
     const [posts, count] = await prisma.$transaction([
       prisma.post.findMany(query),

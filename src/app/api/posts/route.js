@@ -16,6 +16,9 @@ export const GET = async (req) => {
     where: {
       ...(cat && { catSlug: cat }),
     },
+    orderBy: {
+      createdAt: 'desc', // Order by the creation date in descending order
+    },
   };
  
   try {
@@ -31,15 +34,6 @@ export const GET = async (req) => {
     );
   }
 };
-
-
-
-
-
-
-
-
-
 
 // CREATE A POST
 export const POST = async (req) => {

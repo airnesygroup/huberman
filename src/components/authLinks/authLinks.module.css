@@ -2,11 +2,11 @@
   cursor: pointer;
   background-color: #ff6600;
   border-radius: 15px;
-  padding: 5px;
+  padding: 5px 10px; /* Combine padding for left and right */
   color: #fff;
-  padding-left: 10px;
-  padding-right: 10px;
+  display: inline-block; /* Ensures the button fits the content */
 }
+
 
 .addIcon {
   background-color: #ff6600;
@@ -66,12 +66,8 @@
 }
 
 .logout {
-  cursor: pointer;
-  background-color: #ff6600;
-  border-radius: 15px;
-  padding: 5px;
-  color: #fff;
-
+  display: inline; /* Change this to inline to ensure it displays on large screens */
+  
 }
 
 @media screen and (max-width: 720px) {

@@ -11,7 +11,7 @@ const Trending = () => {
   const [profileImages, setProfileImages] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false); // Initially hidden
   const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {

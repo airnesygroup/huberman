@@ -17,9 +17,7 @@ export default function Home({ searchParams }) {
   return (
     <div className={styles.container}>
       <div
-        className={`${styles.trendingWrapper} ${
-          isTrendingVisible ? styles.visible : styles.hidden
-        }`}
+        className={styles.trendingWrapper}
       >
         <Trending />
       </div>

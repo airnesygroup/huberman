@@ -12,7 +12,7 @@ import AddIcon from "@/components/Addicon";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 
-export default function popular({ searchParams }) {
+const PopularPage = ({ searchParams }) => {
   const page = parseInt(searchParams.page) || 1;
 
   return (
@@ -44,3 +44,4 @@ export default function popular({ searchParams }) {
     </div>
   );
 }
+export default PopularPage;

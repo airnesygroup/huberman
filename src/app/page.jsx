@@ -6,6 +6,7 @@ import CardList from "@/components/cardList/CardList";
 import SidebarCategoryList from "@/components/SidebarcategoryList/SidebarCategoryList";
 import Menu from "@/components/Menu/Menu";
 import CarouselList from "@/components/carouselList/CarouselList";
+import Controls from "@/components/Controls";
 
 export default function Home({ searchParams }) {
   const page = parseInt(searchParams.page) || 1;
@@ -13,10 +14,12 @@ export default function Home({ searchParams }) {
   return (
     <div className={styles.container}>
               <SidebarCategoryList/>
+              <Controls/>
 
         <CategoryList/>
 
         <CarouselList page={page}/>
+        
       <div className={styles.content}>
         <CardList page={page}/>
         <Menu />

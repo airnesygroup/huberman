@@ -11,6 +11,8 @@ const Trending = () => {
   const [profileImages, setProfileImages] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const fetchProfiles = async () => {
@@ -32,6 +34,23 @@ const Trending = () => {
     fetchProfiles();
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -40,7 +59,7 @@ const Trending = () => {
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className={styles.trending}>
+    <div className={`${styles.trending} ${isVisible ? styles.visible : styles.hidden}`}>
       <FontAwesomeIcon
         icon={faArrowUp}
         className={styles.arrow}

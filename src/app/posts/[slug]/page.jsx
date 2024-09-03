@@ -2,6 +2,9 @@ import Menu from "@/components/Menu/Menu";
 import styles from "./singlePage.module.css";
 import Image from "next/image";
 import Comments from "@/components/comments/Comments";
+import SidebarCategoryList from "@/components/SidebarcategoryList/SidebarCategoryList";
+import Navbar from "@/components/navbar/Navbar";
+
 
 const getData = async (slug) => {
   const res = await fetch(`https://huberman-azure.vercel.app/api/posts/${slug}`, {
@@ -22,8 +25,23 @@ const SinglePage = async ({ params }) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.infoContainer}>
+              <Navbar />
+
+      <div className={styles.menu}>
+        <SidebarCategoryList />
+      </div>
+
+      <div className={styles.mainContent}>
         <div className={styles.textContainer}>
+     
+          {data?.img && (
+            <div className={styles.imageContainer}>
+              <Image src={data.img} alt="" fill className={styles.image} />
+            </div>
+          )}
+        </div>
+        <div className={styles.content}>
+          <div className={styles.post}>
           <h1 className={styles.title}>{data?.title}</h1>
           <div className={styles.user}>
             {data?.user?.image && (
@@ -33,27 +51,21 @@ const SinglePage = async ({ params }) => {
             )}
             <div className={styles.userTextContainer}>
               <span className={styles.username}>{data?.user.name}</span>
-              <span className={styles.date}>01.01.2024</span>
+              <span className={styles.date}>{data?.date || '01.01.2024'}</span>
             </div>
           </div>
-        </div>
-        {data?.img && (
-          <div className={styles.imageContainer}>
-            <Image src={data.img} alt="" fill className={styles.image} />
+
+            <div 
+             className={styles.description}
+              dangerouslySetInnerHTML={{ __html: data?.desc }}
+            />
+            <div className={styles.comment}>
+              <Comments postSlug={slug} />
+            </div>
           </div>
-        )}
-      </div>
-      <div className={styles.content}>
-        <div className={styles.post}>
-          <div
-            className={styles.description}
-            dangerouslySetInnerHTML={{ __html: data?.desc }}
-          />
-          <div className={styles.comment}>
-            <Comments postSlug={slug}/>
-          </div>
+          <Menu />
+
         </div>
-        <Menu />
       </div>
     </div>
   );

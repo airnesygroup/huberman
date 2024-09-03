@@ -8,6 +8,7 @@ import Menu from "@/components/Menu/Menu";
 import CarouselList from "@/components/carouselList/CarouselList";
 import Controls from "@/components/Controls";
 import Trending from "@/components/Trending";
+import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 export default function Home({ searchParams }) {
   const page = parseInt(searchParams.page) || 1;
@@ -28,6 +29,8 @@ export default function Home({ searchParams }) {
         <CardList page={page}/>
         <Menu />
       </div>
+      <Footer />
+
     </div>
   );
 }

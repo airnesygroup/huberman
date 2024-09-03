@@ -7,6 +7,7 @@ import SidebarCategoryList from "@/components/SidebarcategoryList/SidebarCategor
 import Menu from "@/components/Menu/Menu";
 import CarouselList from "@/components/carouselList/CarouselList";
 import Controls from "@/components/Controls";
+import Trending from "@/components/Trending";
 import Navbar from "@/components/navbar/Navbar";
 export default function Home({ searchParams }) {
   const page = parseInt(searchParams.page) || 1;
@@ -14,6 +15,7 @@ export default function Home({ searchParams }) {
   return (
     <div className={styles.container}>
                     <Navbar/>
+                    <Trending/>
 
               <SidebarCategoryList/>
               <Controls/>

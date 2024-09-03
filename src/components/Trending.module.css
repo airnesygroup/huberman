@@ -1,0 +1,77 @@
+
+
+  .trending {
+    background-color: #ff6600;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    width: 134px;
+    position: fixed;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* Ensure this is higher than other elements */
+}
+
+.arrow {
+    font-size: 13px;
+    margin-right: 7px;
+    flex-shrink: 0;
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+    top: -2px; /* Adjust this to align the images vertically with the text and arrow */
+
+}
+
+.imageWrapper {
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+.imageWrapper:nth-child(1) {
+    z-index: 3;
+    left: 0;
+}
+
+.imageWrapper:nth-child(2) {
+    z-index: 2;
+    left: 12px;
+}
+
+.imageWrapper:nth-child(3) {
+    z-index: 1;
+    left: 24px;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.text {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 50px;
+    flex-shrink: 0;
+}
+
+@media (min-width: 720px) {
+    .trending {
+        display: none;
+    }
+}

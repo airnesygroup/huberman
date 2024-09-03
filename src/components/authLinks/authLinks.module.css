@@ -40,7 +40,7 @@
 .responsiveMenu {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
   background-color: var(--bg);
   height: 120vh;
   width: 50%;
@@ -58,7 +58,7 @@
 .overlay {
   position: fixed;
   top: 0;
-  left: 50%;
+  left: 0;
   width: 50%;
   height: 120vh;
   background: rgba(0, 0, 0, 0.5);

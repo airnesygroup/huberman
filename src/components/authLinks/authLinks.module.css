@@ -51,7 +51,7 @@
   padding-top: 50px;
   gap: 20px;
   font-size: 24px;
-  z-index: 1000;
+  z-index: 999;
   transition: transform 0.3s ease-in-out;
 }
 

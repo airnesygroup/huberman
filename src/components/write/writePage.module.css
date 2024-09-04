@@ -13,8 +13,7 @@
 }
 
 .modalContent {
-  background: var(--bg2);
-  border-color: var(--bd);
+  background: var(--softBg);
   border-style: solid; /* This makes the border visible */
   border-width: 4px;  /* Use 'border-width' instead of just 'border' */
   padding: 20px;
@@ -54,8 +53,8 @@
   max-width: 600px;
   border-radius: 10px;
   border: 1px solid;
-  background-color: var(--softBg);
-  border-color: var(--softBg);
+  background-color: var(--bg);
+  border-color: var(--bg);
   color: var(--textColor);
 }
 
@@ -75,9 +74,9 @@
   height: 300px;
   max-width: 600px;
   font-size: 16px;
-  border: 1px solid var(--softBg);
-  border-color: var(--softBg);
-  background-color: var(--softBg);
+  border: 1px solid var(--bg);
+  border-color: var(--bg);
+  background-color: var(--bg);
   border-radius: 10px;
   padding: 10px;
   box-sizing: border-box;
@@ -96,8 +95,8 @@
   margin-bottom: 20px;
   border-radius: 10px;
   border: 1px solid;
-  border-color: var(--softBg);
-  background-color: var(--softBg);
+  border-color: var(--bg);
+  background-color: var(--bg);
   color: var(--textColor);
   font-size: 18px;
   font-family: inherit;
@@ -117,8 +116,8 @@
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 10px;
-  border: 1px solid var(--softBg);
-  background-color: var(--softBg);
+  border: 1px solid var(--bg);
+  background-color: var(--bg);
   color: var(--textColor);
   font-size: 18px;
   font-family: inherit;
@@ -126,7 +125,7 @@
 
 .textArea:focus {
   outline: none;
-  border-color: var(--softBg);
+  border-color: var(--bg);
 }
 
 .buttons {
@@ -148,7 +147,7 @@
 }
 
 .fileLabel:hover {
-  background-color: #fac840;
+  background-color: #ff802c;
 }
 
 .button {
@@ -162,7 +161,7 @@
 }
 
 .button:hover {
-  background-color: #fac840;
+  background-color: #ff802c;
 }
 
 .button:disabled {

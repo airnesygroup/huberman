@@ -71,13 +71,13 @@
 }
 
 @media screen and (max-width: 720px) {
- 
   .logout2 {
     cursor: pointer;
     background-color: #ff6600;
     border-radius: 15px;
     padding: 5px;
     color: #fff;
+    display: inline-block;
   }
   
 

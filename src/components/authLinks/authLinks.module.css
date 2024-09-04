@@ -72,6 +72,14 @@
 
 @media screen and (max-width: 720px) {
  
+  .logout2k {
+    cursor: pointer;
+    background-color: #ff6600;
+    border-radius: 15px;
+    
+    color: #fff;
+  }
+  
 
   .addIcon {
    display: none;

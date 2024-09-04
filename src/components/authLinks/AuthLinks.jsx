@@ -63,7 +63,7 @@ const AuthLinks = () => {
             ) : (
               <>
                 <Link href="/popular" onClick={handleMenuClick}>Popular</Link>
-                <span className={styles.link} onClick={signOut}>
+                <span className={styles.logout2} onClick={signOut}>
                   Logout
                 </span>
               </>

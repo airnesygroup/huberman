@@ -87,10 +87,12 @@
 
 /* Footer Section */
 .footer {
-  background-color: #333;
+  background-color: #161616;
   text-align: center;
   padding: 20px;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
 }
 
 .footerText {
@@ -105,7 +107,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .heroTitle {
     font-size: 36px;
   }
@@ -125,7 +127,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .heroTitle {
     font-size: 28px;
   }

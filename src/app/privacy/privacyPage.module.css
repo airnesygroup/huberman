@@ -36,6 +36,7 @@
   font-size: 36px;
   margin-bottom: 20px;
   color: #8f8d8d;
+  padding-top: 10px;
 }
 
 .missionText {
@@ -91,6 +92,7 @@
 
   .missionTitle {
     font-size: 28px;
+    padding-top: 5px;
   }
 }
 
@@ -105,5 +107,6 @@
 
   .missionTitle {
     font-size: 24px;
+    padding-top: 2px;
   }
 }

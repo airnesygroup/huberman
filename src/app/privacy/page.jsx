@@ -16,12 +16,13 @@ const privacy = () => {
         <p className={styles.missionText}>
           Last updated September 4th, 2024
 
-          This privacy notice for Airnesy (doing business as Airnesy) (“Company,” “we,” “us,” or “our“), describes how and why we might collect, store, use, and/or share (“process“) your information when you use our services (“Services“), such as when you:
+          This privacy notice for Airnesy (doing business as Airnesy) (“Company,” “we,” “us,” or “our“), describes how and why we might collect, store, use, 
+          and/or share (“process“) your information when you use our services (“Services“), such as when you:
         </p>
 
         <ul className={styles.policyList}>
-          <li>Visit our website at [Website URL], or any website of ours that links to this privacy notice</li>
-          <li>Download and use our application(s), such as our mobile application — [Mobile App Name], our Facebook application — [Facebook App Name], or any other application of ours that links to this privacy notice</li>
+          <li>Visit our website at [ https://www.airnesy.com], or any website of ours that links to this privacy notice</li>
+          <li>Download and use our application(s), such as our mobile application — [Airnesy mobile app], or any other application of ours that links to this privacy notice</li>
           <li>Engage with us in other related ways ― including any sales, marketing, or events</li>
         </ul>
 

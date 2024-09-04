@@ -21,7 +21,6 @@ const LoginPage = () => {
     <div className={styles.container}>
 
       <div className={styles.left}>
-        <h1 className={styles.leftText}>Welcome to Airnesy</h1>
       </div>
 
       <div className={styles.right}>

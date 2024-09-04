@@ -1,6 +1,8 @@
 .container {
   display: flex;
   height: 100vh;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
 }
 
 .left,
@@ -9,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 0; /* Remove padding */
   height: 100%;
 }
 
@@ -25,7 +27,7 @@
 .right {
   background-color: var(--softBg);
   width: 40%;
-  padding: 50px;
+  padding: 0; /* Remove padding */
   text-align: center;
 }
 
@@ -95,12 +97,13 @@
 
   .container {
     flex-direction: column;
+    padding: 0; /* Remove padding */
   }
 
   .left,
   .right {
     width: 100%;
-    padding: 20px;
+    padding: 0; /* Remove padding */
   }
 }
 

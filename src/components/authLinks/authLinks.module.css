@@ -75,8 +75,7 @@
     cursor: pointer;
     background-color: #ff6600;
     border-radius: 15px;
-    padding: 5px;
-    padding-left: 10px;
+    padding: 5px 10px; /* Increase left and right padding */
     color: #fff;
     align-self: flex-start; /* Prevents the item from stretching */
     flex: 0 0 auto; /* Prevents it from growing or shrinking */

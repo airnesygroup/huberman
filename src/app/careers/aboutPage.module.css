@@ -18,40 +18,95 @@
   font-size: 48px;
   margin-bottom: 10px;
   color: #ff6600;
+
+  
 }
 
 .heroSubtitle {
   font-size: 24px;
 }
 
-/* Introduction Section */
-.introduction {
+/* Mission Statement Section */
+.mission {
   padding: 50px 20px;
   background-color: #161616;
   text-align: center;
   border-radius: 15px;
 }
 
-.sectionTitle {
+.missionTitle {
   font-size: 36px;
   margin-bottom: 20px;
   color: #8f8d8d;
 }
 
-.introductionText {
+.missionText {
   font-size: 18px;
   max-width: 800px;
   color: #fff;
   margin: 0 auto;
 }
 
-.introductionText ul {
-  list-style-type: disc;
-  text-align: left;
+.mission2 {
+  padding: 50px 20px;
+  background-color: #161616;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+.mission2Title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #8f8d8d;
+}
+
+.mission2Text {
+  font-size: 18px;
   max-width: 800px;
-  margin: 20px auto;
-  padding-left: 20px;
   color: #fff;
+  margin: 0 auto;
+}
+
+/* Team Section */
+.team {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.teamTitle {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.teamMembers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teamMember {
+  margin: 20px;
+  text-align: center;
+}
+
+.teamImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.teamName {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.teamRole {
+  font-size: 18px;
+  color: #777;
 }
 
 /* Footer Section */
@@ -59,11 +114,13 @@
   background-color: #161616;
   text-align: center;
   padding: 20px;
+
 }
 
 .footerText {
   font-size: 14px;
   color: #fff;
+
 }
 
 .footerText a {
@@ -81,8 +138,14 @@
     font-size: 18px;
   }
 
-  .sectionTitle {
+  .missionTitle,
+  .teamTitle {
     font-size: 28px;
+  }
+
+  .teamImage {
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -95,7 +158,13 @@
     font-size: 16px;
   }
 
-  .sectionTitle {
+  .missionTitle,
+  .teamTitle {
     font-size: 24px;
+  }
+
+  .teamImage {
+    width: 120px;
+    height: 120px;
   }
 }

@@ -42,11 +42,7 @@ const LoginPage = () => {
             : "Already have an account? Sign in instead."}
         </div>
 
-        <div className={styles.trending}>
-          <h3>Trending Now</h3>
-          <p>Join Airnesy today.</p>
-        </div>
-
+     
         <div className={styles.terms}>
           By signing up, you agree to the{" "}
           <a href="/terms" className={styles.link}>Terms of Service</a> and{" "}

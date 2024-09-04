@@ -36,7 +36,7 @@ const About = () => {
         <h2 className={styles.teamTitle}>Meet the Team</h2>
         <div className={styles.teamMembers}>
           <div className={styles.teamMember}>
-            <img src="/alex.jpg" alt="Team Member 1" className={styles.teamImage} />
+            <img src="/alex2.jpg" alt="Team Member 1" className={styles.teamImage} />
             <h3 className={styles.teamName}>Mbelenzi Alexander</h3>
             <p className={styles.teamRole}>CEO & Founder</p>
           </div>

@@ -1,6 +1,6 @@
 .container {
   font-family: Arial, sans-serif;
-  color: #333;
+  color: var(--softBg);
   line-height: 1.6;
   padding: 0;
   margin: 0;
@@ -9,7 +9,7 @@
 /* Hero Section */
 .hero {
   background: url('/images/hero-bg.jpg') no-repeat center center/cover;
-  color: #fff;
+  color: var(--textColor);
   text-align: center;
   padding: 100px 20px;
 }
@@ -29,7 +29,7 @@
 /* Mission Statement Section */
 .mission {
   padding: 50px 20px;
-  background-color: #161616;
+  background-color: var(--softBg);
   text-align: center;
   border-radius: 15px;
 }
@@ -37,19 +37,19 @@
 .missionTitle {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #8f8d8d;
+  color: var(--softTextColor);
 }
 
 .missionText {
   font-size: 18px;
   max-width: 800px;
-  color: #fff;
+  color:var(--textColor);
   margin: 0 auto;
 }
 
 .mission2 {
   padding: 50px 20px;
-  background-color: #161616;
+  background-color: var(--softBg);
   text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -59,7 +59,7 @@
 .mission2Title {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #8f8d8d;
+  color: var(--softTextColor);
 }
 
 .mission2Text {
@@ -106,12 +106,12 @@
 
 .teamRole {
   font-size: 18px;
-  color: #777;
+  color: var(--softTextColor);
 }
 
 /* Footer Section */
 .footer {
-  background-color: #161616;
+  background-color: var(--softBg);
   text-align: center;
   padding: 20px;
 
@@ -119,12 +119,12 @@
 
 .footerText {
   font-size: 14px;
-  color: #fff;
+  color: var(--textColor);
 
 }
 
 .footerText a {
-  color: #fff;
+  color: var(--softTextColor);
   text-decoration: underline;
 }
 

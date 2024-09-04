@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as faStarRegular, faCompass as faCompassRegular } from "@fortawesome/free-regular-svg-icons";
-import { InfoOutlined, WorkOffOutlined, ShieldOutlined } from "@mui/icons-material";
+import { InfoOutlined, WorkOffOutlined, ShieldOutlined,  GavelOutlined }from "@mui/icons-material";
 import { ThemeContext } from "@/context/ThemeContext";
 
 const getData = async () => {
@@ -156,6 +156,13 @@ const SidebarCategoryList = () => {
       >
         <ShieldOutlined className={styles.icon} size="lg" />
         Privacy Policy
+      </button>
+      <button
+        className={`${styles.sidebarButton} ${router.pathname === "/agreement" ? styles.active : ""}`}
+        onClick={() => router.push("/agreement")}
+      >
+        <GavelOutlined className={styles.icon} size="lg" />
+        User Agreement
       </button>
     </div>
   );

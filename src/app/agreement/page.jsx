@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './conditionsPage.module.css';
+import styles from './agreementPage.module.css';
 
-const conditions = () => {
+const agreement = () => {
   return (
     <div className={styles.container}>
       {/* Hero Section */}
@@ -61,11 +61,11 @@ const conditions = () => {
       {/* Footer Section */}
       <footer className={styles.footer}>
         <p className={styles.footerText}>
-          © 2024 Airnesy. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a>
+          © 2024 Airnesy. All rights reserved. | <a href="/privacy">Privacy Policy</a>
         </p>
       </footer>
     </div>
   );
 };
 
-export default conditions;
+export default agreement;

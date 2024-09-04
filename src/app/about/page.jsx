@@ -61,7 +61,7 @@ const About = () => {
       {/* Footer Section */}
       <footer className={styles.footer}>
         <p className={styles.footerText}>
-          © 2024 Airnesy. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a>
+          © 2024 Airnesy. All rights reserved. | <a href="/privacy">Privacy Policy</a>
         </p>
       </footer>
     </div>

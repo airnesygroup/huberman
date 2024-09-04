@@ -33,7 +33,7 @@ const privacy = () => {
         <h2 className={styles.missionTitle}>SUMMARY OF KEY POINTS</h2>
 
         <p className={styles.missionText}>
-          This summary provides key points from our privacy notice, but you can find out more details about any of these topics by using our table of contents below to find the section you are looking for.
+          This summary provides key points from our privacy notice.
         </p>
 
         <ul className={styles.policyList}>

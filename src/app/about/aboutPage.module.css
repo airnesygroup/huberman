@@ -88,13 +88,15 @@
 /* Footer Section */
 .footer {
   background-color: #333;
-  background-color: #8d8682;
   text-align: center;
   padding: 20px;
+  border-radius: 15px;
 }
 
 .footerText {
   font-size: 14px;
+  color: #fff;
+
 }
 
 .footerText a {

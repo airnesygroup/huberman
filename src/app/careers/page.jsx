@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './aboutPage.module.css';
+import styles from './careersPage.module.css';
 
-const About = () => {
+const Careers = () => {
   return (
     <div className={styles.container}>
       {/* Hero Section */}
@@ -44,4 +44,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Careers;

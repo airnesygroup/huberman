@@ -37,6 +37,7 @@
 .missionTitle {
   font-size: 36px;
   margin-bottom: 20px;
+  color: #bdbdbd;
 }
 
 .missionText {
@@ -91,8 +92,6 @@
   background-color: #161616;
   text-align: center;
   padding: 20px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 
 }
 

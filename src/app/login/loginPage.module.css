@@ -9,7 +9,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
   height: 100%;
 }
 
@@ -25,7 +24,6 @@
 .right {
   background-color: var(--softBg);
   width: 40%;
-  padding: 50px;
   text-align: center;
 }
 

@@ -7,7 +7,7 @@ const privacy = () => {
       {/* Hero Section */}
       <section className={styles.hero}>
         <h1 className={styles.heroTitle}>PRIVACY POLICY</h1>
-        <p className={styles.heroSubtitle}>Discover what’s trending now</p>
+        <p className={styles.heroSubtitle}>Airnesy Privacy Policy Notice</p>
       </section>
 
       {/* Mission Statement Section */}

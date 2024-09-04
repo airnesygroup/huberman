@@ -17,6 +17,9 @@
 .heroTitle {
   font-size: 48px;
   margin-bottom: 10px;
+  color: #ff6600;
+
+  
 }
 
 .heroSubtitle {
@@ -26,7 +29,7 @@
 /* Mission Statement Section */
 .mission {
   padding: 50px 20px;
-  background-color: #f4f4f4;
+  background-color: #8d8682;
   text-align: center;
 }
 

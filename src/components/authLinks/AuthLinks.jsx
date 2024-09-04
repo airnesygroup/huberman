@@ -53,7 +53,7 @@ const AuthLinks = () => {
           <div className={styles.responsiveMenu}>
             <Link href="/" onClick={handleMenuClick}>Homepage</Link>
             <Link href="/about" onClick={handleMenuClick}>About</Link>
-            <Link href="/contact" onClick={handleMenuClick}>Contact</Link>
+            <Link href="/about" onClick={handleMenuClick}>Contact</Link>
             {status === "unauthenticated" ? (
               <Link href="/login" onClick={handleMenuClick}>Login</Link>
             ) : (

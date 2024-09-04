@@ -13,7 +13,6 @@ const About = () => {
       {/* Mission Statement Section */}
       <section className={styles.mission}>
 
-      <h2 className={styles.missionTitle}>Who we are</h2>
 
       <h2 className={styles.missionTitle}>Who We Are</h2>
   <p className={styles.missionText}>
@@ -45,6 +44,20 @@ const About = () => {
         </div>
       </section>
 
+
+      <section className={styles.mission}>
+
+
+      <h2 className={styles.missionTitle}> Contact Us</h2>
+  <p className={styles.missionText}>
+  Email: info@airnesy.com
+  contact: +254 703394794
+  </p>
+
+
+
+      
+      </section>
       {/* Footer Section */}
       <footer className={styles.footer}>
         <p className={styles.footerText}>

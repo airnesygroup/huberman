@@ -30,9 +30,9 @@ const Footer = () => {
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Tags</span>
-          <Link href="/">About</Link>
-          <Link href="/">Privacy Policy</Link>
-          <Link href="/">User Agreement</Link>
+          <Link href="/about">About</Link>
+          <Link href="/privacy">Privacy Policy</Link>
+          <Link href="/agreement">User Agreement</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>

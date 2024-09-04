@@ -14,7 +14,6 @@ const privacy = () => {
       <section className={styles.mission}>
 
 
-      <h2 className={styles.missionTitle}>Who We Are</h2>
   <p className={styles.missionText}>
   Last updated [Date]
 
@@ -28,11 +27,27 @@ Questions or concerns? Reading this privacy notice will help you understand your
 
   </p>
 
-  <h2 className={styles.missionTitle}>Our Mission</h2>
+  <h2 className={styles.missionTitle}>SUMMARY OF KEY POINTS</h2>
   <p className={styles.missionText}>
-    Our mission? To make your voice heard in the buzz of what's trending. 
-    We’re here to turn every comment into a conversation and every share into something bigger.
-     Let’s keep the energy up and the connections strong—together, we make trends happen.
+  This summary provides key points from our privacy notice, but you can find out more details about any of these topics by using our table of contents below to find the section you are looking for.
+
+What personal information do we process? When you visit, use, or navigate our Services, we may process personal information depending on how you interact with [Company Name] and the Services, the choices you make, and the products and features you use.
+
+Do we process any sensitive personal information? [We do not process sensitive personal information. / We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law.]
+
+Do you receive any information from third parties? We may receive information from public databases, marketing partners, social media platforms, and other outside sources.
+
+How do you process my information? We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.
+
+In what situations and with which types of parties do we share personal information? We may share information in specific situations and with specific categories of third parties.
+
+How do we keep your information safe? We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
+
+What are your rights? Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.
+
+How do I exercise my rights? The easiest way to exercise your rights is by filling out our data subject request form available here: [DSAR Form URL], or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+
+
   </p>
 
       

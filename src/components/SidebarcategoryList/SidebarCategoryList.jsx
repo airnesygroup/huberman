@@ -151,8 +151,8 @@ const SidebarCategoryList = () => {
       </button>
 
       <button
-        className={`${styles.sidebarButton} ${router.pathname === "/Privacy" ? styles.active : ""}`}
-        onClick={() => router.push("/Privacy")}
+        className={`${styles.sidebarButton} ${router.pathname === "/privacy" ? styles.active : ""}`}
+        onClick={() => router.push("/privacy")}
       >
         <ShieldOutlined className={styles.icon} size="lg" />
         Privacy Policy

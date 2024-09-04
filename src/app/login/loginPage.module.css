@@ -27,12 +27,12 @@
 .right {
   background-color: var(--softBg);
   width: 40%;
-  margin-top: 15%;
+  margin-top: 20%;
   padding-left: 50px;
   border-radius: 20px;
   text-align: center;
   margin-bottom: 100px;
-  height: 50%;
+  height: 30%;
 
 }
 

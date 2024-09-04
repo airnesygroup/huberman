@@ -9,11 +9,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px;
   height: 100%;
 }
 
 .left {
-  background-image: url('../../../public/bg.png'); /* Adjusted relative path */
+  background-image: url('../../../public/bg.image'); /* Adjusted relative path */
   background-size: cover;
   background-position: center;
   color: white;
@@ -24,6 +25,7 @@
 .right {
   background-color: var(--softBg);
   width: 40%;
+  padding: 50px;
   text-align: center;
 }
 

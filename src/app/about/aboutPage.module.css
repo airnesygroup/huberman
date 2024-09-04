@@ -78,6 +78,8 @@
 .teamTitle {
   font-size: 36px;
   margin-bottom: 40px;
+  color: var(--textColor);
+
 }
 
 .teamMembers {
@@ -89,6 +91,8 @@
 .teamMember {
   margin: 20px;
   text-align: center;
+  color: var(--textColor);
+
 }
 
 .teamImage {
@@ -102,6 +106,8 @@
 .teamName {
   font-size: 24px;
   margin-bottom: 5px;
+  color: var(--textColor);
+
 }
 
 .teamRole {

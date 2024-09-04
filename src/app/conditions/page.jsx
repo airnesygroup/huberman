@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './aboutPage.module.css';
+import styles from './conditionsPage.module.css';
 
-const About = () => {
+const conditions = () => {
   return (
     <div className={styles.container}>
       {/* Hero Section */}
@@ -68,4 +68,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default conditions;

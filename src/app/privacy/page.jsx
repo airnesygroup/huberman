@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './aboutPage.module.css';
+import styles from './privacyPage.module.css';
 
-const About = () => {
+const privacy = () => {
   return (
     <div className={styles.container}>
       {/* Hero Section */}
       <section className={styles.hero}>
-        <h1 className={styles.heroTitle}>About Us</h1>
+        <h1 className={styles.heroTitle}>PRIVACY POLICY</h1>
         <p className={styles.heroSubtitle}>Discover what’s trending now</p>
       </section>
 
@@ -16,8 +16,16 @@ const About = () => {
 
       <h2 className={styles.missionTitle}>Who We Are</h2>
   <p className={styles.missionText}>
-    We're the place where what's hot gets even hotter. A community of trendsetters and creators,
-     we're all about sharing what's happening now. Whether it's a viral moment or breaking news, we keep the conversation alive and kicking.
+  Last updated [Date]
+
+This privacy notice for [Company Name] (doing business as [Company Short Name]) (“Company,” “we,” “us,” or “our“), describes how and why we might collect, store, use, and/or share (“process“) your information when you use our services (“Services“), such as when you:
+
+Visit our website at [Website URL], or any website of ours that links to this privacy notice
+[Download and use our application(s), such as our mobile application — [Mobile App Name], our Facebook application — [Facebook App Name], or any other application of ours that links to this privacy notice]
+Engage with us in other related ways ― including any sales, marketing, or events
+Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [Email Address].
+
+
   </p>
 
   <h2 className={styles.missionTitle}>Our Mission</h2>
@@ -68,4 +76,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default privacy;

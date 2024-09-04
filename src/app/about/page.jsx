@@ -45,7 +45,7 @@ const About = () => {
       </section>
 
 
-      <section className={styles.mission}>
+      <section className={styles.mission2}>
 
 
       <h2 className={styles.missionTitle}> Contact Us</h2>

@@ -47,6 +47,28 @@
   margin: 0 auto;
 }
 
+.mission2 {
+  padding: 50px 20px;
+  background-color: #161616;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+.mission2Title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #8f8d8d;
+}
+
+.mission2Text {
+  font-size: 18px;
+  max-width: 800px;
+  color: #fff;
+  margin: 0 auto;
+}
+
 /* Team Section */
 .team {
   padding: 50px 20px;

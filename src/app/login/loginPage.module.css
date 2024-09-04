@@ -14,7 +14,7 @@
 
 .left {
   background-image: url('../../../public/bg.image'); /* Adjusted relative path */
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   color: white;
   width: 60%;

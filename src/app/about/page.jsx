@@ -15,17 +15,18 @@ const About = () => {
 
       <h2 className={styles.missionTitle}>Who we are</h2>
 
-<p className={styles.missionText}>
- Discover what’s trending now. From viral sensations to breaking news,
-join millions of viewers and stay in tune with the moments that matter most.
-Explore the hottest trends with all the live commentary.
-</p>
+      <h2 className={styles.missionTitle}>Who We Are</h2>
+  <p className={styles.missionText}>
+    We're the place where what's hot gets even hotter. A community of trendsetters and creators,
+     we're all about sharing what's happening now. Whether it's a viral moment or breaking news, we keep the conversation alive and kicking.
+  </p>
 
-        <h2 className={styles.missionTitle}>Our Mission</h2>
-        <p className={styles.missionText}>
-          Our mission is to empower individuals and organizations through innovative solutions and
-          unparalleled service. We strive to make a positive impact in everything we do.
-        </p>
+  <h2 className={styles.missionTitle}>Our Mission</h2>
+  <p className={styles.missionText}>
+    Our mission? To make your voice heard in the buzz of what's trending. 
+    We’re here to turn every comment into a conversation and every share into something bigger.
+     Let’s keep the energy up and the connections strong—together, we make trends happen.
+  </p>
 
       
       </section>
@@ -35,7 +36,7 @@ Explore the hottest trends with all the live commentary.
         <h2 className={styles.teamTitle}>Meet the Team</h2>
         <div className={styles.teamMembers}>
           <div className={styles.teamMember}>
-            <img src="/profile.png" alt="Team Member 1" className={styles.teamImage} />
+            <img src="/alex.jpg" alt="Team Member 1" className={styles.teamImage} />
             <h3 className={styles.teamName}>Mbelenzi Alexander</h3>
             <p className={styles.teamRole}>CEO & Founder</p>
           </div>

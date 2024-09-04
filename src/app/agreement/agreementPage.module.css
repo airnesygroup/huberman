@@ -33,9 +33,10 @@
 }
 
 .sectionTitle {
-  font-size: 36px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 10px;
   color: #8f8d8d;
+  padding-top: 60px;
 }
 
 .introductionText {
@@ -82,7 +83,8 @@
   }
 
   .sectionTitle {
-    font-size: 28px;
+    font-size: 25px;
+    padding-top: 50px;
   }
 }
 
@@ -96,6 +98,7 @@
   }
 
   .sectionTitle {
-    font-size: 24px;
+    font-size: 20px;
+    padding-top: 30px;
   }
 }

@@ -65,10 +65,15 @@
 
 .toggleText {
   margin-top: 20px;
-  color: #ff6600;
+  color: #333; /* Default color for the rest of the text */
   cursor: pointer;
   font-size: 0.9rem;
 }
+
+.highlight {
+  color: #ff6600; /* Orange color for "Sign up" and "Sign in" */
+}
+
 
 .trending {
   margin-top: 30px;

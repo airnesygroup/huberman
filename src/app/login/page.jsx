@@ -37,10 +37,17 @@ const LoginPage = () => {
           {isSignUp ? "Sign in with Google" : "Sign up with Google"}
         </div>
         <div className={styles.toggleText} onClick={() => setIsSignUp(!isSignUp)}>
-          {isSignUp
-            ? "Don't have an account? Sign up instead."
-            : "Already have an account? Sign in instead."}
-        </div>
+  {isSignUp ? (
+    <>
+      Don't have an account? <span className={styles.highlight}>Sign up</span> instead.
+    </>
+  ) : (
+    <>
+      Already have an account? <span className={styles.highlight}>Sign in</span> instead.
+    </>
+  )}
+</div>
+
 
      
         <div className={styles.terms}>

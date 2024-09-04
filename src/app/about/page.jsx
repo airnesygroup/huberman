@@ -17,6 +17,14 @@ const About = () => {
           Our mission is to empower individuals and organizations through innovative solutions and
           unparalleled service. We strive to make a positive impact in everything we do.
         </p>
+
+        <h2 className={styles.missionTitle}>Who we are</h2>
+
+          <p className={styles.missionText}>
+          Airnesy – Discover what’s trending now. From viral sensations to breaking news,
+         join millions of viewers and stay in tune with the moments that matter most.
+          Explore the hottest trends with all the live commentary.
+        </p>
       </section>
 
       {/* Team Section */}
@@ -25,19 +33,11 @@ const About = () => {
         <div className={styles.teamMembers}>
           <div className={styles.teamMember}>
             <img src="/profile.png" alt="Team Member 1" className={styles.teamImage} />
-            <h3 className={styles.teamName}>John Doe</h3>
+            <h3 className={styles.teamName}>Mbelenzi Alexander</h3>
             <p className={styles.teamRole}>CEO & Founder</p>
           </div>
-          <div className={styles.teamMember}>
-            <img src="/profile.png" alt="Team Member 2" className={styles.teamImage} />
-            <h3 className={styles.teamName}>Jane Smith</h3>
-            <p className={styles.teamRole}>Chief Marketing Officer</p>
-          </div>
-          <div className={styles.teamMember}>
-            <img src="/profile.png" alt="Team Member 3" className={styles.teamImage} />
-            <h3 className={styles.teamName}>Emily Johnson</h3>
-            <p className={styles.teamRole}>Lead Developer</p>
-          </div>
+    
+       
         </div>
       </section>
 

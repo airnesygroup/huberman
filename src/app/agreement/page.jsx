@@ -7,7 +7,7 @@ const agreement = () => {
       {/* Hero Section */}
       <section className={styles.hero}>
         <h1 className={styles.heroTitle}>TERMS AND CONDITIONS</h1>
-        <p className={styles.heroSubtitle}>Understand the rules and guidelines</p>
+        <p className={styles.introductionText}>Understand the rules and guidelines</p>
       </section>
 
       {/* Introduction Section */}

@@ -16,7 +16,7 @@
   background-image: url('../../../public/bg.image'); /* Adjusted relative path */
   background-size: cover;
   background-position: center;
-  color: white;
+  color: var(--softTextColor);
   width: 60%;
   margin-top: 5%;
   height: 80%;
@@ -65,7 +65,7 @@
 
 .toggleText {
   margin-top: 20px;
-  color: #333; /* Default color for the rest of the text */
+  color: var(--softTextColor); /* Default color for the rest of the text */
   cursor: pointer;
   font-size: 0.9rem;
 }
@@ -78,13 +78,13 @@
 .trending {
   margin-top: 30px;
   font-size: 1.2rem;
-  color: #333;
+  color: var(--softTextColor);
 }
 
 .terms {
   margin-top: 20px;
   font-size: 0.9rem;
-  color: #666;
+  color: var(--softTextColor);
 }
 
 .link {

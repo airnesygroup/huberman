@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './aboutUs.module.css';
+import styles from './about.module.css';
 
 const About = () => {
   return (
@@ -24,17 +24,17 @@ const About = () => {
         <h2 className={styles.teamTitle}>Meet the Team</h2>
         <div className={styles.teamMembers}>
           <div className={styles.teamMember}>
-            <img src="/images/team1.jpg" alt="Team Member 1" className={styles.teamImage} />
+            <img src="/profile.png" alt="Team Member 1" className={styles.teamImage} />
             <h3 className={styles.teamName}>John Doe</h3>
             <p className={styles.teamRole}>CEO & Founder</p>
           </div>
           <div className={styles.teamMember}>
-            <img src="/images/team2.jpg" alt="Team Member 2" className={styles.teamImage} />
+            <img src="/profile.png" alt="Team Member 2" className={styles.teamImage} />
             <h3 className={styles.teamName}>Jane Smith</h3>
             <p className={styles.teamRole}>Chief Marketing Officer</p>
           </div>
           <div className={styles.teamMember}>
-            <img src="/images/team3.jpg" alt="Team Member 3" className={styles.teamImage} />
+            <img src="/profile.png" alt="Team Member 3" className={styles.teamImage} />
             <h3 className={styles.teamName}>Emily Johnson</h3>
             <p className={styles.teamRole}>Lead Developer</p>
           </div>

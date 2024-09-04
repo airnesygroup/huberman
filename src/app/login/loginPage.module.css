@@ -1,48 +1,41 @@
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90vh;
-  padding: 20px; /* Ensures container doesn't touch edges */
-  margin: 0 20px; /* Added margin to prevent touching the sides */
+  height: 100vh;
 }
-
-
 
 .left,
 .right {
-  height: 80%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
-  border-top-left-radius: 15px;
+  height: 100%;
 }
 
 .left {
-  background-color: #ff6600;
+  background-image: url('/your-background-image.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
   color: white;
-  width: 30%;
-  min-width: 150px;
+  width: 60%;
   text-align: center;
 }
 
 .right {
   background-color: var(--softBg);
-  width: 50%;
+  width: 40%;
   padding: 50px;
-  min-width: 150px;
-  
+  text-align: center;
 }
 
 .leftText {
-  font-size: 1.1rem;
+  font-size: 2.5rem;
 }
 
 .rightText {
-  font-size: 2.25rem;
-  padding-bottom: 10%;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .socialButton {
@@ -70,52 +63,66 @@
   font-size: 0.9rem;
 }
 
+.trending {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.terms {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.link {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
-  .container {
-    padding: 20px;
-    margin: 0 15px; /* Adjusted margin for medium screens */
-  }
-
-  .right {
-    padding: 20px;
-  }
-
   .leftText {
-    font-size: 1.0rem;
+    font-size: 2rem;
   }
 
   .rightText {
     font-size: 1.5rem;
   }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .leftText {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
   }
 
-  .left,
-.right {
-  height: 50%;
- 
-}
-  .container {
-    padding: 15px;
-    margin: 0 10px; /* Ensures no touching on small screens */
-    
-  }
-
-  .right {
-    padding: 15px;
+  .rightText {
+    font-size: 1.2rem;
   }
 
   .socialButton {
-    font-weight: 400;
-    font-size: 14px;
+    font-size: 0.9rem;
     padding: 10px;
   }
 
   .toggleText {
+    font-size: 0.8rem;
+  }
+
+  .terms {
     font-size: 0.8rem;
   }
 }

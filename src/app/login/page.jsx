@@ -18,13 +18,12 @@ const LoginPage = () => {
   }
 
   return (
-    <div className={styles.container2}>
-
     <div className={styles.container}>
 
       <div className={styles.left}>
         <h1 className={styles.leftText}>Welcome to Airnesy</h1>
       </div>
+
       <div className={styles.right}>
         <h2 className={styles.rightText}>{isSignUp ? "Sign in" : "Sign up"}</h2>
         <div
@@ -38,15 +37,22 @@ const LoginPage = () => {
           />
           {isSignUp ? "Sign in with Google" : "Sign up with Google"}
         </div>
-        <div
-          className={styles.toggleText}
-          onClick={() => setIsSignUp(!isSignUp)}
-        >
+        <div className={styles.toggleText} onClick={() => setIsSignUp(!isSignUp)}>
           {isSignUp
             ? "Don't have an account? Sign up instead."
             : "Already have an account? Sign in instead."}
         </div>
-      </div>
+
+        <div className={styles.trending}>
+          <h3>Trending Now</h3>
+          <p>Join Airnesy today.</p>
+        </div>
+
+        <div className={styles.terms}>
+          By signing up, you agree to the{" "}
+          <a href="/terms" className={styles.link}>Terms of Service</a> and{" "}
+          <a href="/privacy" className={styles.link}>Privacy Policy</a>.
+        </div>
       </div>
 
     </div>
@@ -54,6 +60,3 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-  
-
-  

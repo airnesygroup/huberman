@@ -14,7 +14,7 @@
 }
 
 .left {
-  background-image: url('./bg.png'); /* Replace with your image path */
+  background-image: url('../bg.png'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   color: white;

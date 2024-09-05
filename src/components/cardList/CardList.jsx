@@ -4,7 +4,6 @@ import Pagination from "../pagination/Pagination";
 import Image from "next/image";
 import Card from "../card/Card";
 import AddIcon2 from "../Addicon2";
-import AddIcon2 from "../Addicon2";
 
 const getData = async (page, cat) => {
   const res = await fetch(

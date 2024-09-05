@@ -17,7 +17,7 @@
 
 .trendingText {
   font-size: 18px;
-  color: #333;
+  color: var(--softTextColor);
   margin-bottom: 10px;
 }
 

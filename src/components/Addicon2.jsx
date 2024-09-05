@@ -5,9 +5,9 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import Modal from "./ParentComponent";
 import WritePage from "./write/page";
 import { useSession } from "next-auth/react"; // Import useSession
-import styles from "./AddIcon.module.css";
+import styles from "./AddIcon2.module.css";
 
-const AddIcon = () => {
+const AddIcon2 = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const { status } = useSession(); // Access session status
 
@@ -35,4 +35,4 @@ const AddIcon = () => {
   );
 };
 
-export default AddIcon;
+export default AddIcon2;

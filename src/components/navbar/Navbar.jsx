@@ -9,8 +9,7 @@ import { ThemeContext } from "@/context/ThemeContext";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon as faMoonRegular } from "@fortawesome/free-regular-svg-icons";
-import AddIcon2 from "../Addicon";
-
+import AddIcon2 from "../Addicon2";
 const Navbar = () => {
   const { toggle, theme } = useContext(ThemeContext);
   const [showNavbar, setShowNavbar] = useState(true);

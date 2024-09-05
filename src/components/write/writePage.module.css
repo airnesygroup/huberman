@@ -90,7 +90,7 @@
   width: 100%;
   max-width: 600px;
   padding: 10px;
-  margin-bottom: 2px;
+  margin-bottom: 20px;
   border-radius: 10px;
   border: 1px solid;
   border-color: var(--bg);
@@ -190,7 +190,10 @@
 }
 
 @media (max-width: 640px) {
+
   .container {
+ 
+    gap: 5px;
     padding: 10px;
   }
 

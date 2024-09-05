@@ -218,7 +218,7 @@ const WritePage = ({ closeModal }) => {
             theme="bubble"
             value={value}
             onChange={handleContentChange}
-            placeholder="Tell your story..."
+            placeholder="What's trending..."
           />          
 
           <div className={styles.characterCount}>

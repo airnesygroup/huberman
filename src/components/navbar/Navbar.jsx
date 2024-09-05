@@ -9,6 +9,7 @@ import { ThemeContext } from "@/context/ThemeContext";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon as faMoonRegular } from "@fortawesome/free-regular-svg-icons";
+import AddIcon from "../Addicon";
 
 const Navbar = () => {
   const { toggle, theme } = useContext(ThemeContext);
@@ -93,6 +94,7 @@ const Navbar = () => {
                    <FontAwesomeIcon icon={faMoonRegular}  size="sm"  className={styles.themeImage} />
           </div>
 
+          <AddIcon />
 
 
      

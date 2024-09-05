@@ -93,7 +93,6 @@ const Navbar = () => {
                    <FontAwesomeIcon icon={faMoonRegular}  size="sm"  className={styles.themeImage} />
           </div>
 
-          <AddIcon2 />
 
 
      

@@ -11,6 +11,7 @@ import Trending from "@/components/Trending";
 import AddIcon from "@/components/Addicon";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
+import AddIcon2 from "@/components/Addicon2";
 export default function Home({ searchParams }) {
   const page = parseInt(searchParams.page) || 1;
 
@@ -30,8 +31,8 @@ export default function Home({ searchParams }) {
       </div>
       <div className={styles.mainContent}>
         <CategoryList />
-
-        <CarouselList page={page} />
+        <AddIcon2 />
+         <CarouselList page={page} />
 
         <div className={styles.content1}>
           <CardList page={page} />

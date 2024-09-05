@@ -3,6 +3,8 @@ import styles from "./cardList.module.css";
 import Pagination from "../pagination/Pagination";
 import Image from "next/image";
 import Card from "../card/Card";
+import AddIcon2 from "../Addicon2";
+import AddIcon2 from "../Addicon2";
 
 const getData = async (page, cat) => {
   const res = await fetch(
@@ -29,6 +31,8 @@ const CardList = async ({ page, cat }) => {
 
   return (
     <div className={styles.container}>
+               <AddIcon2 />
+
       <div className={styles.posts}>
         {posts?.map((item) => (
           <Card item={item} key={item._id} />

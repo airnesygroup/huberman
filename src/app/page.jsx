@@ -32,9 +32,9 @@ export default function Home({ searchParams }) {
       
       <div className={styles.mainContent}>
          <CarouselList page={page} />
+         <AddIcon2 />
 
         <div className={styles.content1}>
-        <AddIcon2 />
 
           <CardList page={page} />
 

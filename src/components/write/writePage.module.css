@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 1001;
 }
 
 .modalContent {
@@ -207,16 +207,19 @@
   }
 
   .input {
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
   }
 
   .textArea {
-    height: 200px;
+    height: 150px;
+    margin-top: 0px;
+
   }
 
   .editor {
     font-size: 14px;
+    margin-top: 0px;
   }
 
   .button {
@@ -229,6 +232,8 @@
   }
   .characterCount {
     
-    margin-top: 1px;
+    margin-top: 0px;
+    font-size: 12px;
+
   }
 }

@@ -1,31 +1,39 @@
 "use client";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faImage, faPoll, faVideo, faSmile, faShareSquare } from "@fortawesome/free-solid-svg-icons"; // Import the required icons
 import Modal from "./ParentComponent";
 import WritePage from "./write/page";
-import { useSession } from "next-auth/react"; // Import useSession
+import { useSession } from "next-auth/react";
 import styles from "./AddIcon2.module.css";
 
 const AddIcon2 = () => {
   const [isModalOpen, setModalOpen] = useState(false);
-  const { status } = useSession(); // Access session status
+  const { status } = useSession();
 
-  const handleAddIconClick = () => {
+  const handleShareClick = () => {
     setModalOpen(true);
   };
 
-  // Render nothing if the user is unauthenticated
   if (status === "unauthenticated") return null;
 
   return (
     <>
-      <button
-        className={styles.addIcon}
-        onClick={handleAddIconClick}
-      >
-        <FontAwesomeIcon icon={faPlus} />
-      </button>
+      <div className={styles.trendingBox}>
+        <div className={styles.header}>
+          What's trending?
+        </div>
+        <div className={styles.icons}>
+          <FontAwesomeIcon icon={faImage} className={styles.icon} />
+          <FontAwesomeIcon icon={faPoll} className={styles.icon} />
+          <FontAwesomeIcon icon={faVideo} className={styles.icon} />
+          <FontAwesomeIcon icon={faSmile} className={styles.icon} />
+          <button className={styles.shareButton} onClick={handleShareClick}>
+            <FontAwesomeIcon icon={faShareSquare} />
+          </button>
+        </div>
+      </div>
+
       {isModalOpen && (
         <Modal open={isModalOpen} onClose={() => setModalOpen(false)}>
           <WritePage closeModal={() => setModalOpen(false)} />

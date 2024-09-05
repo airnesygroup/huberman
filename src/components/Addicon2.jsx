@@ -24,7 +24,6 @@ const AddIcon2 = () => {
         <div className={styles.leftSection}>
           <span className={styles.trendingText}>What's trending?</span>
           <div className={styles.icons}>
-            <FontAwesomeIcon icon={faCode} className={styles.icon} />
             <FontAwesomeIcon icon={faImage} className={styles.icon} />
             <FontAwesomeIcon icon={faPoll} className={styles.icon} />
             <FontAwesomeIcon icon={faVideo} className={styles.icon} />

@@ -229,5 +229,8 @@
     padding: 8px 16px;
     font-size: 14px;
   }
-  
+  .characterCount {
+    
+    margin-top: 1px;
+  }
 }

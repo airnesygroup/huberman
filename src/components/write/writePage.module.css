@@ -212,10 +212,11 @@
   .input {
     font-size: 14px;
     padding: 10px;
+    margin-bottom: 5px;
   }
 
   .textArea {
-    height: 150px;
+    height: 100px;
     margin-top: 0px;
 
   }

@@ -59,7 +59,6 @@
 .characterCount {
   font-size: 14px;
   color: var(--textColor);
-  margin-top: 5px;
 }
 
 .previewImage {

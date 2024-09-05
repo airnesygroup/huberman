@@ -29,8 +29,7 @@ export default function Home({ searchParams }) {
       <div className={styles.menu}>
         <SidebarCategoryList />
       </div>
-      <CategoryList />
-
+      
       <div className={styles.mainContent}>
          <CarouselList page={page} />
 

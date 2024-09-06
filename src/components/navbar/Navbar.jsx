@@ -52,7 +52,7 @@ const Navbar = () => {
         <Link href="/">
           <div className={styles.logo}>
             <Image src="/logo1.png" alt="airnesy logo" layout="fill" className={styles.logoImage} />
-            <h1 className={styles.logoText}>Reddit</h1>
+            <h1 className={styles.logoText}>Airnesy</h1>
 
           </div>
         </Link>

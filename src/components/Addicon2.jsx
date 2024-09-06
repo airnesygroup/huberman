@@ -23,14 +23,9 @@ const AddIcon2 = () => {
       <div className={styles.createPostContainer} onClick={handleComponentClick}>
         <div className={styles.leftSection}>
           <span className={styles.trendingText}>What's trending?</span>
-          <div className={styles.icons}>
-            <FontAwesomeIcon icon={faImage} className={styles.icon} />
-            <FontAwesomeIcon icon={faPoll} className={styles.icon} />
-            <FontAwesomeIcon icon={faVideo} className={styles.icon} />
-            <FontAwesomeIcon icon={faSmile} className={styles.icon} />
-          </div>
+       
         </div>
-        <button className={styles.shareButton}>Share</button>
+        <button className={styles.shareButton}>post now</button>
       </div>
       {isModalOpen && (
         <Modal open={isModalOpen} onClose={() => setModalOpen(false)}>

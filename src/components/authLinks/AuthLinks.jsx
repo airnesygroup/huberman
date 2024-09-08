@@ -35,9 +35,7 @@ const AuthLinks = () => {
         </Link>
       ) : (
         <>
-          <button className={styles.addIcon} onClick={handleAddIconClick}>
-            <FontAwesomeIcon icon={faPlus} />
-          </button>
+        
           <span className={`${styles.link} ${styles.logout}`} onClick={signOut}>
             Logout
           </span>

@@ -30,7 +30,6 @@ const CardList = async ({ page, cat }) => {
 
   return (
     <div className={styles.container}>
-               <AddIcon2 />
 
       <div className={styles.posts}>
         {posts?.map((item) => (

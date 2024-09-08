@@ -1,42 +1,8 @@
-.createPostContainer {
-  background-color: var(--bg);
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%; /* 100% width */
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.leftSection {
-  display: flex;
-  flex-direction: column;
-}
-
-.trendingText {
-  font-size: 18px;
-  color: var(--textColor);
-  margin-bottom: 10px;
-}
-
-.icons {
-  display: flex;
-  gap: 10px;
-}
-
-.icon {
-  color: #ff6600; /* Orange color for the icons */
-  font-size: 24px;
-  cursor: pointer;
-}
-
 .shareButton {
   background-color: #ff6600;
   color: #fff;
   border: none;
-  padding: 5px 15px;
+  padding: 10px 20px;
   border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
@@ -44,10 +10,4 @@
 
 .shareButton:hover {
   background-color: #e65c00;
-}
-
-@media screen and (max-width: 720px) {
-  .createPostContainer {
-    display: none; /* Hide component on smaller screens */
-  }
 }

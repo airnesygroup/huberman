@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faImage, faPoll, faVideo, faSmile } from "@fortawesome/free-solid-svg-icons"; // Import relevant icons
 import Modal from "./ParentComponent";
 import WritePage from "./write/page";
 import { useSession } from "next-auth/react"; // Import useSession
@@ -20,13 +18,9 @@ const AddIcon2 = () => {
 
   return (
     <>
-      <div className={styles.createPostContainer} onClick={handleComponentClick}>
-        <div className={styles.leftSection}>
-          <span className={styles.trendingText}>What's trending?</span>
-       
-        </div>
-        <button className={styles.shareButton}>post now</button>
-      </div>
+      <button className={styles.shareButton} onClick={handleComponentClick}>
+        Post now
+      </button>
       {isModalOpen && (
         <Modal open={isModalOpen} onClose={() => setModalOpen(false)}>
           <WritePage closeModal={() => setModalOpen(false)} />

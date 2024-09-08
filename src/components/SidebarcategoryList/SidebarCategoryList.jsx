@@ -3,6 +3,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import styles from "./SidebarcategoryList.module.css";
 import Link from "next/link";
+import AddIcon2 from "../Addicon2";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -133,6 +134,9 @@ const SidebarCategoryList = () => {
         </button>
       )}
       <div className={styles.separator}></div>
+      <AddIcon2 />
+      <div className={styles.separator}></div>
+
       <div className={styles.sectionTitle}>Resources</div>
       <button
         className={`${styles.sidebarButton} ${router.pathname === "/about" ? styles.active : ""}`}

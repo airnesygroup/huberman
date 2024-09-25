@@ -16,8 +16,8 @@ const Card = ({ key, item }) => {
             src={item.user?.image}
             alt={item.user?.name}
             className={styles.profileImage}
-            width={25}
-            height={25}
+            width={35}
+            height={35}
           />
           <div className={styles.verticalLine}></div>
         </div>
@@ -43,7 +43,7 @@ const Card = ({ key, item }) => {
                 </div>
               </div>
             </div>
-            <span className={styles.category}>{item.catSlug}</span>
+            <span >...</span>
           </div>
           <h1 className={styles.title}>{item.title.substring(0, 150)}</h1>
           <h1 className={styles.title2}>{item.title.substring(0, 80)}</h1>

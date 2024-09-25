@@ -56,7 +56,7 @@
   font-weight: bold;
   cursor: pointer;
   margin-top: 20px;
-  background-color: #ff6600;
+  background-color: #1DA1F2;
 }
 
 .socialButton img {
@@ -71,7 +71,7 @@
 }
 
 .highlight {
-  color: #ff6600; /* Orange color for "Sign up" and "Sign in" */
+  color: #1DA1F2; /* Orange color for "Sign up" and "Sign in" */
 }
 
 
@@ -88,7 +88,7 @@
 }
 
 .link {
-  color: #ff6600;
+  color: #1DA1F2;
   text-decoration: none;
 }
 

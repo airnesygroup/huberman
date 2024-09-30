@@ -187,7 +187,7 @@
   }
 
   .profileContainer {
-    width: 60px;
+    width: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +195,7 @@
   }
 
   .profileImage {
-    margin-right: 30px;
+    margin-right: 0;
     margin-bottom: 10px;
   }
 

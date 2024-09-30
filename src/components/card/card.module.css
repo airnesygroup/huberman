@@ -202,7 +202,7 @@
   .verticalLine {
     width: 1px;
     background-color: var(--softTextColor3); /* Set the border to var(--softTextColor) */
-
+display: none;
     position: absolute;
     top: 45px;
     bottom: 0;

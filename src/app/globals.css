@@ -70,12 +70,13 @@ a {
 
 /* styles/globals.css */
 @font-face {
-  font-family: 'Inter';
-  src: url('/fonts/inter/Inter-Regular.woff2') format('woff2'),
-       url('/fonts/inter/Inter-Regular.woff') format('woff');
+  font-family: 'Helvetica Neue';
+  src: url('https://your-font-source-url/HelveticaNeue.woff2') format('woff2'),
+       url('https://your-font-source-url/HelveticaNeue.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
+
 
 /* Add other font weights and styles as needed */
 

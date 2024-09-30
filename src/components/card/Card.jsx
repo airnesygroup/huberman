@@ -1,6 +1,9 @@
 import Image from "next/image";
 import styles from "./card.module.css";
 import Link from "next/link";
+import { formatDistanceToNow } from 'date-fns';
+
+
 
 const Card = ({ key, item }) => {
   const truncatedDesc = item?.desc.substring(0, 400);
@@ -16,8 +19,8 @@ const Card = ({ key, item }) => {
             src={item.user?.image}
             alt={item.user?.name}
             className={styles.profileImage}
-            width={35}
-            height={35}
+            width={40}
+            height={40}
           />
           <div className={styles.verticalLine}></div>
         </div>
@@ -38,12 +41,13 @@ const Card = ({ key, item }) => {
                     <p className={styles.userRole}>{item.user?.role}</p>
                   </div>
                   <span className={styles.date}>
-                    {item.createdAt.substring(0, 10)}
-                  </span>
+  {formatDistanceToNow(new Date(item.createdAt), { addSuffix: true })}
+</span>
+
                 </div>
               </div>
             </div>
-            <span >...</span>
+            <span className={styles.span}>...</span>
           </div>
           <h1 className={styles.title}>{item.title.substring(0, 150)}</h1>
           <h1 className={styles.title2}>{item.title.substring(0, 80)}</h1>

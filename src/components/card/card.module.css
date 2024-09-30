@@ -79,7 +79,7 @@
   font-size: 14px;
   font-weight: bold;
   margin: 0;
-  color: gray;
+  color: var(--softTextColor2);
 }
 
 .userRole {
@@ -88,7 +88,7 @@
 }
 
 .date {
-  color: gray;
+  color: var(--softTextColor2);
   padding-left: 5px;
   font-size: 10px;
   padding-top: 1px;
@@ -114,7 +114,6 @@
   font-size: 16px;
   padding-top: 4px;
   padding-bottom: 6px;
-  font-weight: 500;
   color: var(--softTextColor);
 }
 

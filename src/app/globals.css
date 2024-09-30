@@ -1,5 +1,5 @@
-/* Add Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+/* Add Google Fonts import for Great Vibes */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root {
   --bg: white;
@@ -62,25 +62,25 @@ a {
   padding-right: 8px;
 }
 
-/* Apply art-like font */
+/* Apply Great Vibes for a calligraphy-like style */
 body {
   background-color: var(--bg);
   color: var(--textColor);
-  font-family: 'Dancing Script', 'Helvetica Neue', Arial, sans-serif; /* Artistic font stack */
+  font-family: 'Great Vibes', 'Helvetica Neue', Arial, sans-serif; /* Calligraphy font stack */
 }
 
 .ql-container {
   font-size: 28px !important;
-  font-family: 'Dancing Script', 'Helvetica Neue', Arial, sans-serif; /* Apply here as well */
+  font-family: 'Great Vibes', 'Helvetica Neue', Arial, sans-serif; /* Apply here as well */
 }
 
 .quill > .ql-container > .ql-editor.ql-blank::before {
   color: #b3b3b1;
-  font-family: 'Dancing Script', 'Helvetica Neue', Arial, sans-serif; /* Placeholder font */
+  font-family: 'Great Vibes', 'Helvetica Neue', Arial, sans-serif; /* Placeholder font */
 }
 
 @media screen and (max-width: 640px) {
   .wrapper {
-    padding: 0 7px;
+    padding: 0 6px;
   }
 }

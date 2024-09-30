@@ -22,7 +22,7 @@
 
 .profileImage {
   border-radius: 50%;
-  margin-right: 45px;
+  margin-right: 10px;
 }
 
 .profileImage2 {
@@ -182,12 +182,12 @@
   .container {
     display: flex;
     flex-direction: row;
-    gap: 15px;
-    padding-left: 15px;
+    gap: 1px;
+    padding-left: 1px;
   }
 
   .profileContainer {
-    width: 10px;
+    width: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +195,7 @@
   }
 
   .profileImage {
-    margin-right: 0;
+    margin-right: 30px;
     margin-bottom: 10px;
   }
 

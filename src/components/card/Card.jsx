@@ -81,7 +81,8 @@ const Card = ({ key, item }) => {
               />
             </div>
           )}
-    
+              <div className={styles.horizontalLine}></div>
+
     
         </div>
       </div>

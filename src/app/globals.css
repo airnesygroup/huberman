@@ -47,6 +47,8 @@ a {
 
   --softTextColor: #c4c4c4;
   --softTextColor2: #8899A6;
+  --softTextColor3: #dfecf5;
+
 
 }
 
@@ -60,7 +62,7 @@ a {
   --softBg: #EBECEE;
   --softerBg: #f5f6f8;
   --softTextColor2: #657786;
-  --softTextColor3: #657786;
+  --softTextColor3: #14171a;
 
   --softTextColor: #3d3d3d;
 }

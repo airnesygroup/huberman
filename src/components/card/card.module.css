@@ -140,7 +140,7 @@
   max-height: 500px;
   width: 100%;
   border-radius: 15px;
-  border: 2px solid var(--softTextColor2); /* Set the border to var(--softTextColor) */
+  border: 1px solid var(--softTextColor3); /* Set the border to var(--softTextColor) */
 
   overflow: hidden;
 }
@@ -193,12 +193,21 @@
 
   .verticalLine {
     width: 1px;
-    background-color: var(--softTextColor2); /* Set the border to var(--softTextColor) */
+    background-color: var(--softTextColor3); /* Set the border to var(--softTextColor) */
 
     position: absolute;
-    top: 35px;
+    top: 40px;
     bottom: 0;
   }
+
+  .ghorizontalLine {
+    width: 1px;
+    background-color: var(--softTextColor3); /* Set the border to var(--softTextColor) */
+
+    position: absolute;
+    top: 3px;
+  }
+
 
   .infoContainer {
     display: flex;

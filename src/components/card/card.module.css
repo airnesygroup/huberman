@@ -182,8 +182,8 @@
   .container {
     display: flex;
     flex-direction: row;
-    gap: 1px;
-    padding-left: 1px;
+    gap: 15px;
+    padding-left: 10px;
   }
 
   .profileContainer {

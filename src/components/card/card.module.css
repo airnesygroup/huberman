@@ -200,8 +200,9 @@
     bottom: 0;
   }
 
-  .ghorizontalLine {
-    width: 1px;
+  .horizontalLine {
+    height: 1px;
+    width: full;
     background-color: var(--softTextColor3); /* Set the border to var(--softTextColor) */
 
     position: absolute;

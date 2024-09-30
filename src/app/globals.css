@@ -80,12 +80,24 @@ a {
 /* Add other font weights and styles as needed */
 
 
-
-
 body {
   background-color: var(--bg);
   color: var(--textColor);
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Updated font stack */
 }
+
+.ql-container {
+  font-size: 28px !important;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply here as well if needed */
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before {
+  color: #b3b3b1;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Placeholder font */
+}
+
+
+
 
 @media screen and (max-width: 640px) {
 
@@ -95,10 +107,4 @@ body {
 }
 
 
-.ql-container{
-  font-size: 28px !important;
-}
-
-.quill > .ql-container > .ql-editor.ql-blank::before{
-  color: #b3b3b1;
-}
+=

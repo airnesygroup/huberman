@@ -68,15 +68,6 @@ a {
   padding-right: 8px;
 }
 
-/* styles/globals.css */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://your-font-source-url/HelveticaNeue.woff2') format('woff2'),
-       url('https://your-font-source-url/HelveticaNeue.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 /* Add other font weights and styles as needed */
 

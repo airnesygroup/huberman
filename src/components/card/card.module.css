@@ -202,13 +202,11 @@
 
   .horizontalLine {
     height: 1px;
-    width: full;
+    width: 100%; /* Ensure it spans the full width */
     background-color: var(--softTextColor3); /* Set the border to var(--softTextColor) */
-
-    position: absolute;
-    top: 3px;
+    margin-top: 10px; /* Optional: Add some spacing above the line */
   }
-
+  
 
   .infoContainer {
     display: flex;

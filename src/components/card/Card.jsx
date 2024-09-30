@@ -6,8 +6,8 @@ import { formatDistanceToNow } from 'date-fns';
 
 
 const Card = ({ key, item }) => {
-  const truncatedDesc = item?.desc.substring(0, 400);
-  const truncatedDesc2 = item?.desc.substring(0, 150);
+  const truncatedDesc = item?.desc.substring(0, 500);
+  const truncatedDesc2 = item?.desc.substring(0, 200);
 
   const showMore = item?.desc.length > 300;
 
@@ -71,23 +71,18 @@ const Card = ({ key, item }) => {
                   backgroundImage: `url(${item.img})`,
                 }}
               />
-              <Image
+               <Image
                 src={item.img}
                 alt={item.title}
                 layout="intrinsic"
                 className={styles.image}
-                 // Ensures the image never exceeds 500px in height
-               
               />
+              {/* Move the horizontal line here */}
+              <div className={styles.horizontalLine}></div>
             </div>
           )}
-              <div className={styles.horizontalLine}></div>
-
-    
         </div>
       </div>
-
-      
     </Link>
   );
 };

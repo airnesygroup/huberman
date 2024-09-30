@@ -7,7 +7,7 @@ import { formatDistanceToNow } from 'date-fns';
 
 const Card = ({ key, item }) => {
   const truncatedDesc = item?.desc.substring(0, 500);
-  const truncatedDesc2 = item?.desc.substring(0, 200);
+  const truncatedDesc2 = item?.desc.substring(0, 250);
 
   const showMore = item?.desc.length > 300;
 
@@ -63,7 +63,6 @@ const Card = ({ key, item }) => {
             />
         
           </div>
-          <div className={styles.horizontalLine}></div>
 
           {item.img && (
             <div className={styles.imageContainer}>
@@ -80,7 +79,6 @@ const Card = ({ key, item }) => {
                 className={styles.image}
               />
               {/* Move the horizontal line here */}
-              <div className={styles.horizontalLine}></div>
             </div>
           )}
                         <div className={styles.horizontalLine}></div>

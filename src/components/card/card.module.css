@@ -108,6 +108,14 @@
   margin-left: auto;
 }
 
+
+.horizontalLine {
+  height: 1px;
+  width: 100%; /* Ensure it spans the full width */
+  background-color: var(--softTextColor3); /* Set the border to var(--softTextColor) */
+  margin-top: 10px; /* Optional: Add some spacing above the line */
+}
+
 .title {
   font-size: 18px;
   font-weight: bold;
@@ -200,12 +208,7 @@
     bottom: 0;
   }
 
-  .horizontalLine {
-    height: 10px;
-    width: 100%; /* Ensure it spans the full width */
-    background-color: var(--softTextColor3); /* Set the border to var(--softTextColor) */
-    margin-top: 100px; /* Optional: Add some spacing above the line */
-  }
+
   
 
   .infoContainer {

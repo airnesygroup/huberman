@@ -1,6 +1,3 @@
-/* Add Google Fonts import for Great Vibes */
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 :root {
   --bg: white;
   --textColor: black;
@@ -19,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+
+
+
+
+
 a {
   color: inherit;
   text-decoration: none;
@@ -30,21 +32,25 @@ a {
   --bg2: #000000;
   --bd: #303030;
   --transparentBg: rgba(1, 1, 2, 0.7);
+
   --softBg1: rgb(87, 85, 85);
+
   --softBg: rgb(43, 42, 42);
   --softerBg: rgb(27, 27, 27);
+
   --softTextColor: #c4c4c4;
 }
 
 .light {
-  --bg: #fcfeff;
+  --bg:#fcfeff ;
   --textColor: #0F1419;
-  --bg2: #ffffff;
-  --bd: #fcfeff;
+  --bg2:#ffffff ;
+  --bd:#fcfeff ;
   --softBg1: #c1c2c4;
   --transparentBg: rgba(252, 254, 255, 0.7);
   --softBg: #EBECEE;
   --softerBg: #f5f6f8;
+
   --softTextColor: #3d3d3d;
 }
 
@@ -62,25 +68,43 @@ a {
   padding-right: 8px;
 }
 
-/* Apply Great Vibes for a calligraphy-like style */
+/* styles/globals.css */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('https://your-font-source-url/HelveticaNeue.woff2') format('woff2'),
+       url('https://your-font-source-url/HelveticaNeue.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Add other font weights and styles as needed */
+
+
 body {
   background-color: var(--bg);
   color: var(--textColor);
-  font-family: 'Great Vibes', 'Helvetica Neue', Arial, sans-serif; /* Calligraphy font stack */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Updated font stack */
 }
 
 .ql-container {
   font-size: 28px !important;
-  font-family: 'Great Vibes', 'Helvetica Neue', Arial, sans-serif; /* Apply here as well */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Apply here as well if needed */
 }
 
 .quill > .ql-container > .ql-editor.ql-blank::before {
   color: #b3b3b1;
-  font-family: 'Great Vibes', 'Helvetica Neue', Arial, sans-serif; /* Placeholder font */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Placeholder font */
 }
 
+
+
+
 @media screen and (max-width: 640px) {
+
   .wrapper {
     padding: 0 6px;
   }
 }
+
+

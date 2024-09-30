@@ -63,6 +63,8 @@ const Card = ({ key, item }) => {
             />
         
           </div>
+          <div className={styles.horizontalLine}></div>
+
           {item.img && (
             <div className={styles.imageContainer}>
               <div
@@ -81,6 +83,8 @@ const Card = ({ key, item }) => {
               <div className={styles.horizontalLine}></div>
             </div>
           )}
+                        <div className={styles.horizontalLine}></div>
+
         </div>
       </div>
     </Link>

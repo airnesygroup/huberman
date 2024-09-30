@@ -81,9 +81,10 @@ const Card = ({ key, item }) => {
               {/* Move the horizontal line here */}
             </div>
           )}
-                        <div className={styles.horizontalLine}></div>
 
         </div>
+        <div className={styles.horizontalLine}></div>
+
       </div>
     </Link>
   );

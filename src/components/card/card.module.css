@@ -88,8 +88,8 @@
 }
 
 .verifiedIcon {
-  width: 8px; /* Adjust the size as needed */
-  height: 8px; /* Adjust the size as needed */
+  width: 14px; /* Adjust the size as needed */
+  height: 14px; /* Adjust the size as needed */
   margin-left: 5px;
   vertical-align: middle; /* Align icon vertically with the text */
 }
@@ -217,7 +217,12 @@ display: none;
   }
 
 
-  
+  .verifiedIcon {
+    width: 12px; /* Adjust the size as needed */
+    height: 12px; /* Adjust the size as needed */
+    margin-left: 5px;
+    vertical-align: middle; /* Align icon vertically with the text */
+  }
 
   .infoContainer {
     display: flex;

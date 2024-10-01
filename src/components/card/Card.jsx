@@ -2,6 +2,9 @@ import Image from "next/image";
 import styles from "./card.module.css";
 import Link from "next/link";
 import { formatDistanceToNow } from 'date-fns';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'; // Import the verified icon
+
 
 
 
@@ -40,6 +43,8 @@ const Card = ({ key, item }) => {
                     <p className={styles.username}>{item.user?.name}</p>
                     <p className={styles.userRole}>{item.user?.role}</p>
                   </div>
+                  <FontAwesomeIcon icon={faCheckCircle} className={styles.verifiedIcon} />
+
                   <span className={styles.date}>
   {formatDistanceToNow(new Date(item.createdAt), { addSuffix: true })}
 </span>

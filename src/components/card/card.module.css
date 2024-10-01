@@ -87,6 +87,13 @@
   margin: 0;
 }
 
+.verifiedIcon {
+  color: rgb(0, 162, 255); /* Change to your preferred color */
+  margin-left: 5px; /* Add space between name and icon */
+  font-size: 0.9em; /* Adjust size as needed */
+}
+
+
 .date {
   color: var(--softTextColor2);
   padding-left: 5px;

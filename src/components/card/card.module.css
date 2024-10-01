@@ -88,9 +88,10 @@
 }
 
 .verifiedIcon {
-  color: rgb(0, 162, 255); /* Change to your preferred color */
-  margin-left: 5px; /* Add space between name and icon */
-  font-size: 0.9em; /* Adjust size as needed */
+  width: 2px; /* Adjust the size as needed */
+  height: 2px; /* Adjust the size as needed */
+  margin-left: 5px;
+  vertical-align: middle; /* Align icon vertically with the text */
 }
 
 

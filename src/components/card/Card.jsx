@@ -40,11 +40,13 @@ const Card = ({ key, item }) => {
                     height={25}
                   />
                   <div className={styles.userInfo}>
-                    <p className={styles.username}>{item.user?.name}</p>
+                    <p className={styles.username}>{item.user?.name}</p>@
                     <p className={styles.userRole}>{item.user?.role}</p>
                   </div>
-                  <FontAwesomeIcon icon={faCheckCircle} className={styles.verifiedIcon} />
-
+                  <img 
+src="/verified.webp"     alt="Verified" 
+className={styles.verifiedIcon} 
+    />
                   <span className={styles.date}>
   {formatDistanceToNow(new Date(item.createdAt), { addSuffix: true })}
 </span>

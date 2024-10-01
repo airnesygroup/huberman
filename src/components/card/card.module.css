@@ -88,8 +88,8 @@
 }
 
 .verifiedIcon {
-  width: 2px; /* Adjust the size as needed */
-  height: 2px; /* Adjust the size as needed */
+  width: 8px; /* Adjust the size as needed */
+  height: 8px; /* Adjust the size as needed */
   margin-left: 5px;
   vertical-align: middle; /* Align icon vertically with the text */
 }

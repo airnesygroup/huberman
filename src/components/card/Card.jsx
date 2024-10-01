@@ -40,7 +40,7 @@ const Card = ({ key, item }) => {
                     height={25}
                   />
                   <div className={styles.userInfo}>
-                    <p className={styles.username}>{item.user?.name}</p>@
+                    <p className={styles.username}>{item.user?.name}</p>
                     <p className={styles.userRole}>{item.user?.role}</p>
                   </div>
                   <img 

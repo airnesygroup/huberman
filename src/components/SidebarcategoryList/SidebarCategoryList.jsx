@@ -53,7 +53,7 @@ import {
   faBoxes,
   faCity,
   faHandPaper,
-  faThread,
+  fafabric,
   faFootballBall,
   faPaintBrush,
 } from "@fortawesome/free-solid-svg-icons";
@@ -102,7 +102,7 @@ const iconMap = {
   "fa-solid fa-boxes": faBoxes,
   "fa-solid fa-city": faCity,
   "fa-solid fa-hand-paper": faHandPaper,
-  "fa-solid fa-thread": faThread,
+  "fa-solid fa-fabric": fafabric,
   "fa-solid fa-football-ball": faFootballBall,
   "fa-solid fa-paint-brush": faPaintBrush,
 };

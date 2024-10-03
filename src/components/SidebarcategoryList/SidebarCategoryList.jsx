@@ -7,7 +7,6 @@ import AddIcon2 from "../Addicon2";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faStar as faStarRegular, faCompass as faCompassRegular } from "@fortawesome/free-regular-svg-icons";
 import { InfoOutlined, WorkOffOutlined, ShieldOutlined,  GavelOutlined }from "@mui/icons-material";
 import { ThemeContext } from "@/context/ThemeContext";
@@ -57,8 +56,9 @@ import {
   faThread as farThread,
   faFootballBall as farFootballBall,
   faPaintBrush as farPaintBrush,
-} from "@fortawesome/free-regular-svg-icons"; // Ensure this is importing from free-regular-svg-icons
+} from "@fortawesome/free-regular-svg-icons"; // Import outlined (regular) icons
 
+// Map of icon strings to actual FontAwesome icons
 const iconMap = {
   "far fa-circle": farCircle,
   "far fa-newspaper": farNewspaper,
@@ -106,6 +106,7 @@ const iconMap = {
   "far fa-football-ball": farFootballBall,
   "far fa-paint-brush": farPaintBrush,
 };
+
 
 const getData = async () => {
   try {
@@ -218,7 +219,7 @@ const SidebarCategoryList = () => {
             <span>
               <FontAwesomeIcon className={styles.icon} size="lg" icon={iconMap[item.icon]} />
             </span>
-
+            
             {item.title}
             <span>⌄</span>
           </button>

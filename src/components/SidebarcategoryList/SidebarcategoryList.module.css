@@ -19,7 +19,6 @@
   align-items: center;
   cursor: pointer;
   font-size: medium;
-  justify-content: flex-start; /* Aligns content to the left */
 }
 
 
@@ -48,10 +47,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-content: flex-start; /* Aligns content to the left */
 
   cursor: pointer;
   font-size: medium;
+
+
+}
+
+
+.icon2 {
+
+  justify-content: flex-start; /* Aligns content to the left */
 
 
 }

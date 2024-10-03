@@ -226,7 +226,7 @@ const SidebarCategoryList = () => {
             className={styles.categoryButton}
             onClick={() => router.push(`/blog?cat=${item.slug}`)}>
 
-            <span>
+            <span className={styles.icon2} >
               <FontAwesomeIcon className={styles.icon} size="lg" icon={iconMap[item.icon]} />
             </span>
             

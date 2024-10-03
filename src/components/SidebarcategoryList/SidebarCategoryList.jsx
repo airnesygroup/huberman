@@ -226,11 +226,12 @@ const SidebarCategoryList = () => {
             className={styles.categoryButton}
             onClick={() => router.push(`/blog?cat=${item.slug}`)}>
 
-            <span className={styles.icon2} >
+            <span  >
               <FontAwesomeIcon className={styles.icon} size="lg" icon={iconMap[item.icon]} />
             </span>
+            <span className={styles.icon2} >
             
-            {item.title}
+            {item.title} </span>
             <span>⌄</span>
           </button>
           {openDropdowns[item.slug] && (

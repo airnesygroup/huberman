@@ -1,7 +1,7 @@
 /* menu.module.css */
 
 .container {
-  background-color: var(--bd);
+  background-color: var(--bg);
   padding: 12px;
   padding-top: 25px;
   border-radius: 15px;

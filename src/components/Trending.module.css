@@ -8,7 +8,7 @@
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     height: 45px;
-    width: 164px;
+    width: 175px;
     position: fixed;
     top: 6px;
     left: 28%;
@@ -58,7 +58,7 @@
 
 .imageWrapper:nth-child(2) {
     z-index: 2;
-    left: 7px;
+    left: 0px;
 }
 
 .imageWrapper:nth-child(3) {

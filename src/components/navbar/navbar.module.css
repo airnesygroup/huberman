@@ -39,7 +39,7 @@
 .separator {
   width: 100%;
   height: 1px;
-  background-color: gray;
+  background-color: var(--softTextColor3);
   margin: 10px 0;
 }
 
@@ -116,7 +116,7 @@
   height: 38px; /* Adjust height */
   padding: 0 10px; /* Add padding inside the search bar */
   border: 1px solid; /* Add border */
-  background-color: var(--softBg);
+  background-color: var(--softTextColor3);
   border-color: var(--softBg);
   border-radius: 50px; /* Add border radius */
   font-size: 16px; /* Adjust font size */

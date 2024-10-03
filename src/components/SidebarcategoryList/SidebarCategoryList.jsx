@@ -188,6 +188,17 @@ const SidebarCategoryList = () => {
         <span className={styles.chevron2}>⌄</span>
       </button>
 
+      <button
+        className={`${styles.sidebarButton} ${router.pathname === "/hooliconnews" ? styles.active : ""}`}
+        onClick={() => router.push("/hooliconnews")}
+      >
+        
+        <FontAwesomeIcon icon={faStarRegular} className={styles.icon} size="lg" />
+        Hoolicon Business
+        <span className={styles.chevron2}>⌄</span>
+      </button>
+
+
 
       <button
         className={`${styles.sidebarButton} ${router.pathname === "/hooliconnews" ? styles.active : ""}`}
@@ -195,7 +206,7 @@ const SidebarCategoryList = () => {
       >
         
         <FontAwesomeIcon icon={faStarRegular} className={styles.icon} size="lg" />
-        Hoolicon News
+        Hoolicon Tech
         <span className={styles.chevron2}>⌄</span>
       </button>
 

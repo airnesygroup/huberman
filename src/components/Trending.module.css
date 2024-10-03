@@ -38,7 +38,7 @@
     justify-content: center;
     position: relative;
     flex-grow: 1;
-    top: -2px; /* Adjust this to align the images vertically with the text and arrow */
+    top: -3px; /* Adjust this to align the images vertically with the text and arrow */
 }
 
 .imageWrapper {
@@ -57,12 +57,12 @@
 
 .imageWrapper:nth-child(2) {
     z-index: 2;
-    left: 7px;
+    left: 17px;
 }
 
 .imageWrapper:nth-child(3) {
     z-index: 1;
-    left: 14px;
+    left: 34px;
 }
 
 .imageWrapper img {

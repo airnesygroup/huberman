@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as faStarRegular, faCompass as faCompassRegular } from "@fortawesome/free-regular-svg-icons";
 import { InfoOutlined, WorkOffOutlined, ShieldOutlined,  GavelOutlined }from "@mui/icons-material";
 import { ThemeContext } from "@/context/ThemeContext";
-
 import {
   faCircle as farCircle,
   faNewspaper as farNewspaper,
@@ -57,10 +56,7 @@ import {
   faThread as farThread,
   faFootballBall as farFootballBall,
   faPaintBrush as farPaintBrush,
-} from "@fortawesome/free-regular-svg-icons"; // Change to free-regular-svg-icons
-
-// Map of icon strings to actual FontAwesome icons
-
+} from "@fortawesome/free-regular-svg-icons"; // Ensure this is importing from free-regular-svg-icons
 
 const iconMap = {
   "far fa-circle": farCircle,

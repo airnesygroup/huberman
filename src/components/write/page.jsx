@@ -193,7 +193,7 @@ const WritePage = ({ closeModal }) => {
 <option value="blockchain">Blockchain</option>
 <option value="virtual-reality">Virtual Reality</option>
 <option value="augmented-reality">Augmented Reality</option>
-<option value="3d-printing">3D Printing</option>
+<option value="threed-printing">3D Printing</option>
 <option value="fintech">FinTech</option>
 <option value="wearable-tech">Wearable Tech</option>
 <option value="media">Media</option>

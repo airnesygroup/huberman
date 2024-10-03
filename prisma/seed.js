@@ -19,7 +19,7 @@ async function main() {
         { slug: "blockchain", title: "Blockchain", icon: "fa-solid fa-coins" },
         { slug: "virtual-reality", title: "Virtual Reality", icon: "fa-solid fa-vr-cardboard" },
         { slug: "augmented-reality", title: "Augmented Reality", icon: "fa-solid fa-glasses" },
-        { slug: "3d-printing", title: "3D Printing", icon: "fa-solid fa-print" },
+        { slug: "threed-printing", title: "3D Printing", icon: "fa-solid fa-print" },
         { slug: "fintech", title: "FinTech", icon: "fa-solid fa-piggy-bank" },
         { slug: "wearable-tech", title: "Wearable Tech", icon: "fa-solid fa-hand-paper" },
         { slug: "media", title: "Media ", icon: "fa-solid fa-bullhorn" },

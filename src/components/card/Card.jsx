@@ -44,7 +44,7 @@ const Card = ({ key, item }) => {
                     <p className={styles.userRole}>{item.user?.role}</p>
                   </div>
                   <img 
-src="/verified.webp"     alt="Verified" 
+src="/verified.png"     alt="Verified" 
 className={styles.verifiedIcon} 
     />
                   <span className={styles.date}>

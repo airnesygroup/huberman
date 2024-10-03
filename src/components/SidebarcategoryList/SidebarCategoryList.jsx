@@ -10,6 +10,102 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as faStarRegular, faCompass as faCompassRegular } from "@fortawesome/free-regular-svg-icons";
 import { InfoOutlined, WorkOffOutlined, ShieldOutlined,  GavelOutlined }from "@mui/icons-material";
 import { ThemeContext } from "@/context/ThemeContext";
+import {
+  faCircle,
+  faNewspaper,
+  faRobot,
+  faGamepad,
+  faFilm,
+  faVrCardboard,
+  faCoins,
+  faGlasses,
+  faPrint,
+  faPiggyBank,
+  faWatch,
+  faBullhorn,
+  faShoppingCart,
+  faBrain,
+  faDatabase,
+  faCode,
+  faCloud,
+  faAtom,
+  faLock,
+  faWifi,
+  faNetworkWired,
+  faTshirt,
+  faUtensils,
+  faBolt,
+  faDesktop,
+  faCar,
+  faRocket,
+  faBatteryHalf,
+  faFlask,
+  faSquareRootAlt,
+  faDna,
+  faMapMarkedAlt,
+  faCogs,
+  faHammer,
+  faHeartbeat,
+  faSeedling,
+  faLeaf,
+  faAnchor,
+  faFighterJet,
+  faBoxes,
+  faCity,
+  faHandPaper,
+  faThread,
+  faFootballBall,
+  faPaintBrush,
+} from "@fortawesome/free-solid-svg-icons";
+
+// Map of icon strings to actual FontAwesome icons
+const iconMap = {
+  "fa-solid fa-circle": faCircle,
+  "fa-solid fa-newspaper": faNewspaper,
+  "fa-solid fa-robot": faRobot,
+  "fa-solid fa-gamepad": faGamepad,
+  "fa-solid fa-film": faFilm,
+  "fa-solid fa-vr-cardboard": faVrCardboard,
+  "fa-solid fa-coins": faCoins,
+  "fa-solid fa-glasses": faGlasses,
+  "fa-solid fa-print": faPrint,
+  "fa-solid fa-piggy-bank": faPiggyBank,
+  "fa-solid fa-watch": faWatch,
+  "fa-solid fa-bullhorn": faBullhorn,
+  "fa-solid fa-shopping-cart": faShoppingCart,
+  "fa-solid fa-brain": faBrain,
+  "fa-solid fa-database": faDatabase,
+  "fa-solid fa-code": faCode,
+  "fa-solid fa-cloud": faCloud,
+  "fa-solid fa-atom": faAtom,
+  "fa-solid fa-lock": faLock,
+  "fa-solid fa-wifi": faWifi,
+  "fa-solid fa-network-wired": faNetworkWired,
+  "fa-solid fa-tshirt": faTshirt,
+  "fa-solid fa-utensils": faUtensils,
+  "fa-solid fa-bolt": faBolt,
+  "fa-solid fa-desktop": faDesktop,
+  "fa-solid fa-car": faCar,
+  "fa-solid fa-rocket": faRocket,
+  "fa-solid fa-battery-half": faBatteryHalf,
+  "fa-solid fa-flask": faFlask,
+  "fa-solid fa-square-root-alt": faSquareRootAlt,
+  "fa-solid fa-dna": faDna,
+  "fa-solid fa-map-marked-alt": faMapMarkedAlt,
+  "fa-solid fa-cogs": faCogs,
+  "fa-solid fa-hammer": faHammer,
+  "fa-solid fa-heartbeat": faHeartbeat,
+  "fa-solid fa-seedling": faSeedling,
+  "fa-solid fa-leaf": faLeaf,
+  "fa-solid fa-anchor": faAnchor,
+  "fa-solid fa-fighter-jet": faFighterJet,
+  "fa-solid fa-boxes": faBoxes,
+  "fa-solid fa-city": faCity,
+  "fa-solid fa-hand-paper": faHandPaper,
+  "fa-solid fa-thread": faThread,
+  "fa-solid fa-football-ball": faFootballBall,
+  "fa-solid fa-paint-brush": faPaintBrush,
+};
 
 const getData = async () => {
   try {
@@ -117,9 +213,12 @@ const SidebarCategoryList = () => {
         <div key={item._id} className={styles.categoryWrapper}>
           <button
             className={styles.categoryButton}
-            onClick={() => router.push(`/blog?cat=${item.slug}`)}
-          > <span>    <FontAwesomeIcon  className={styles.icon} size="lg" icon={category.icon} />
-          </span>
+            onClick={() => router.push(`/blog?cat=${item.slug}`)}>
+
+            <span>
+              <FontAwesomeIcon className={styles.icon} size="lg" icon={iconMap[item.icon]} />
+            </span>
+            
             {item.title}
             <span>⌄</span>
           </button>

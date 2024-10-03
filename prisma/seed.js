@@ -57,12 +57,9 @@ async function main() {
         { slug: "textile-tech", title: "Textile Technology", icon: "fa-solid fa-thread" },
         { slug: "sports-tech", title: "Sports Technology", icon: "fa-solid fa-football-ball" },
         { slug: "digital-art-design", title: "Digital Art & Design", icon: "fa-solid fa-paint-brush" }
- 
-    ]    
-      
-      
+      ]
     });
-    console.log("Sample categories added to the database.");
+    console.log("Sample categories with icons added to the database.");
   } catch (error) {
     console.error("Error seeding categories:", error);
     throw error;

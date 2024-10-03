@@ -29,7 +29,7 @@
 
 .arrow {
     font-size: 13px;
-    margin-right: 5px;
+    margin-right: 7px;
     flex-shrink: 0;
 }
 
@@ -78,8 +78,16 @@
     flex-shrink: 0;
 }
 
+
 @media (min-width: 720px) {
     .trending {
         display: none;
     }
 }
+
+
+
+
+
+
+

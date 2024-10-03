@@ -107,6 +107,7 @@ padding-bottom: 30px;
   .mainContent {
     margin-left: 0; /* Ensure no margin is applied */
     padding-left: 0; /* Ensure no padding is applied */
+    margin-top: 200px;
   }
 
   .content1 {

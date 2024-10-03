@@ -23,24 +23,24 @@ export default function Home({ searchParams }) {
         <Trending />
       </div>
 
-     <Navbar />
-      <AddIcon />
+<Navbar />
+<AddIcon />
 
-      <div className={styles.menu}>
-        <SidebarCategoryList />
-      </div>
-      
-      <div className={styles.mainContent}>
-         <CarouselList page={page} />
+<div className={styles.menu}>
+  <SidebarCategoryList />
+</div>
+<div className={styles.mainContent}>
+  <CategoryList />
 
-        <div className={styles.content1}>
+  <CarouselList page={page} />
 
-          <CardList page={page} />
+  <div className={styles.content1}>
+    <CardList2 page={page} />
 
-          <Menu />
-        </div>
-        <Footer />
-      </div>
-    </div>
+    <Menu />
+  </div>
+  <Footer />
+</div>
+</div>
   );
 }

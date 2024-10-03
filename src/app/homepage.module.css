@@ -44,7 +44,7 @@
   overflow-y: hidden; /* Scrollable content */
   padding-right: 20px;
   padding-bottom: 30px;
-  margin-top: 60px;
+  margin-top: 55px;
   transition: overflow 0.3s ease; /* Smooth transition for scrollbar visibility */
   
   border-right: 1px solid var(--softTextColor3); /* Borderline on the right */

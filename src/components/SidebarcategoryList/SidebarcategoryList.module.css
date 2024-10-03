@@ -19,7 +19,9 @@
   align-items: center;
   cursor: pointer;
   font-size: medium;
+  justify-content: flex-start; /* Aligns content to the left */
 }
+
 
 .sidebarButton:hover {
   background-color: var(--softBg);
@@ -45,7 +47,9 @@
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
+  justify-content: flex-start; /* Aligns content to the left */
+
   cursor: pointer;
   font-size: medium;
 

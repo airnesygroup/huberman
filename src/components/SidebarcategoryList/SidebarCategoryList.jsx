@@ -194,7 +194,7 @@ const SidebarCategoryList = () => {
       >
         
         <FontAwesomeIcon icon={faStarRegular} className={styles.icon} size="lg" />
-        Hoolicon Business
+        Hoolicon Busines
         <span className={styles.chevron2}>⌄</span>
       </button>
 

@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 5px;
   padding: 8px;
-  font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
 
 }
 
@@ -204,7 +203,7 @@
 
   .profileImage {
     margin-right: 15px;
-    margin-top: 5px;
+    margin-top: 3px;
   }
 
   .verticalLine {
@@ -270,18 +269,18 @@ display: none;
 .imageContainer {
   min-height: 50px;
     width: 100%; /* Make sure the image container takes the full width */
-  border-radius: 7px;
+  border-radius: 11px;
 }
 
 .imageBackground {
  
-   border-radius: 7px;
+   border-radius: 11px;
  
 }
 
 .image {
 
-  border-radius: 7px;
+  border-radius: 11px;
 }
 
 

@@ -9,6 +9,9 @@
   left: 0;
   z-index: 1005;
   transition: transform 0.3s ease-in-out;
+  border-bottom: 1px solid var(--softTextColor3); /* Borderline on the right */
+
+
 }
 
 .show {
@@ -242,6 +245,7 @@
 
   .container {
     height: 35px;
+    border-bottom: none;
   }
 
 

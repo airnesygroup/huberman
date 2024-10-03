@@ -7,11 +7,11 @@
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 40px;
+    height: 45px;
     width: 164px;
     position: fixed;
     top: 6px;
-    left: 33%;
+    left: 28%;
     transform: translateX(-50%);
     z-index: 1004; /* Ensure this is higher than other elements */
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -29,7 +29,7 @@
 
 .arrow {
     font-size: 13px;
-    margin-right: 7px;
+    margin-right: 10px;
     flex-shrink: 0;
 }
 
@@ -45,8 +45,8 @@
     border-radius: 50%;
     border: 2px solid white;
     overflow: hidden;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     position: absolute;
 }
 
@@ -74,7 +74,7 @@
 .text {
     font-size: 13px;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 100px;
     flex-shrink: 0;
 }
 

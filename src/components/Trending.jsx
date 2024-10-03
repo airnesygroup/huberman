@@ -68,7 +68,7 @@ const Trending = () => {
         <div className={styles.imagesContainer}>
           {profileImages.map((src, index) => (
             <div className={styles.imageWrapper} key={index}>
-              <Image src={src} alt={`Profile ${index + 1}`} width={25} height={25} />
+              <Image src={src} alt={`Profile ${index + 1}`} width={28} height={28} />
             </div>
           ))}
         </div>

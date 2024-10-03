@@ -11,7 +11,7 @@ async function main() {
     await prisma.category.createMany({
       data: [
         { slug: "general", title: "General", icon: "fa-solid fa-circle" },
-        { slug: "business-finance", title: "Business and Finance", icon: "fa-solid fa-newspaper" },
+        { slug: "business-finance", title: "Business & Finance", icon: "fa-solid fa-newspaper" },
         { slug: "artificial-intelligence", title: "Artificial Intelligence", icon: "fa-solid fa-robot" },
         { slug: "gaming", title: "Gaming", icon: "fa-solid fa-gamepad" },
         { slug: "entertainment", title: "Entertainment", icon: "fa-solid fa-film" },
@@ -21,7 +21,7 @@ async function main() {
         { slug: "augmented-reality", title: "Augmented Reality", icon: "fa-solid fa-glasses" },
         { slug: "3d-printing", title: "3D Printing", icon: "fa-solid fa-print" },
         { slug: "fintech", title: "FinTech", icon: "fa-solid fa-piggy-bank" },
-        { slug: "wearable-tech", title: "Wearable Technology", icon: "fa-solid fa-hand-paper" },
+        { slug: "wearable-tech", title: "Wearable Tech", icon: "fa-solid fa-hand-paper" },
         { slug: "media", title: "Media ", icon: "fa-solid fa-bullhorn" },
         { slug: "e-commerce", title: "E-Commerce", icon: "fa-solid fa-shopping-cart" },
         { slug: "machine-learning", title: "Machine Learning", icon: "fa-solid fa-brain" },
@@ -44,7 +44,10 @@ async function main() {
         { slug: "mathematics", title: "Mathematics", icon: "fa-solid fa-square-root-alt" },
         { slug: "biotech", title: "Biotech", icon: "fa-solid fa-dna" },
         { slug: "geospatial", title: "Geospatial", icon: "fa-solid fa-map-marked-alt" },
-        { slug: "mechanics-industry", title: "Mechanics & Industry", icon: "fa-solid fa-cogs" },
+        { slug: "mechanics", title: "Mechanics ", icon: "fa-solid fa-cogs" },
+        
+        { slug: "industrial", title: "Industrial", icon: "fa-solid fa-industry" },
+
         { slug: "construction", title: "Construction", icon: "fa-solid fa-hammer" },
         { slug: "medtech", title: "MedTech", icon: "fa-solid fa-heartbeat" },
         { slug: "agritech", title: "AgriTech", icon: "fa-solid fa-seedling" },

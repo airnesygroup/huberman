@@ -44,6 +44,7 @@ import {
   faDna,
   faMapMarkedAlt,
   faCogs,
+  faindustry,
   faHammer,
   faHeartbeat,
   faSeedling,
@@ -56,6 +57,7 @@ import {
   fafabric,
   faFootballBall,
   faPaintBrush,
+  faIndustry,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Map of icon strings to actual FontAwesome icons
@@ -93,6 +95,8 @@ const iconMap = {
   "fa-solid fa-dna": faDna,
   "fa-solid fa-map-marked-alt": faMapMarkedAlt,
   "fa-solid fa-cogs": faCogs,
+  "fa-solid fa-industry": faIndustry,
+
   "fa-solid fa-hammer": faHammer,
   "fa-solid fa-heartbeat": faHeartbeat,
   "fa-solid fa-seedling": faSeedling,
@@ -194,7 +198,7 @@ const SidebarCategoryList = () => {
       >
         
         <FontAwesomeIcon icon={faStarRegular} className={styles.icon} size="lg" />
-        Hoolicon Busines
+        Hoolicon Business
         <span className={styles.chevron2}>⌄</span>
       </button>
 

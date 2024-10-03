@@ -7,7 +7,7 @@
   width: 100%;
   height: calc(100vh - 40px); /* Adjust height considering margin-top */
   overflow-y: hidden;
-  flex: 1.5;
+  flex: 1.7;
 }
 
 

@@ -86,8 +86,20 @@ const SidebarCategoryList = () => {
         className={`${styles.sidebarButton} ${router.pathname === "/popular" ? styles.active : ""}`}
         onClick={() => router.push("/popular")}
       >
+        
         <FontAwesomeIcon icon={faStarRegular} className={styles.icon} size="lg" />
         Popular
+        <span className={styles.chevron2}>⌄</span>
+      </button>
+
+
+      <button
+        className={`${styles.sidebarButton} ${router.pathname === "/hooliconnews" ? styles.active : ""}`}
+        onClick={() => router.push("/hooliconnews")}
+      >
+        
+        <FontAwesomeIcon icon={faStarRegular} className={styles.icon} size="lg" />
+        Hoolicon News
         <span className={styles.chevron2}>⌄</span>
       </button>
 
@@ -106,7 +118,8 @@ const SidebarCategoryList = () => {
           <button
             className={styles.categoryButton}
             onClick={() => router.push(`/blog?cat=${item.slug}`)}
-          >
+          > <span>    <FontAwesomeIcon icon={category.icon} />
+          </span>
             {item.title}
             <span>⌄</span>
           </button>

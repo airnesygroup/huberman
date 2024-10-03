@@ -7,7 +7,7 @@ import AddIcon2 from "../Addicon2";
 
 const getData = async (page, cat) => {
   const res = await fetch(
-    `https://www.hoolicon.com/api/postsimg?page=${page}&cat=${cat || ""}`,
+    `https://www.airnesy.com/api/postsimg?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }

@@ -138,11 +138,11 @@
 }
 
 .desc a {
-  color: #059af5;
+  color: #FF4500;
 }
 
 .link {
-  border-bottom: 1px solid #059af5;
+  border-bottom: 1px solid #FF4500;
   width: max-content;
   padding: 2px 02;
   font-size: 12px;

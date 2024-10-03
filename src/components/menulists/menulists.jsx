@@ -6,7 +6,7 @@ const getData = async (page, cat) => {
 
   
   const res = await fetch(
-    `https://www.hoolicon.com/api/postsviews?page=${page}&cat=${cat || ""}`,
+    `https://www.airnesy.com/api/postsviews?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }

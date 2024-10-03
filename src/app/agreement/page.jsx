@@ -16,7 +16,7 @@ const agreement = () => {
         <p className={styles.introductionText}>
           Last updated September 4th, 2024
 
-          These Terms and Conditions ("Terms") govern your use of our website and services provided by Airnesy ("Company," "we," "us," or "our"). By accessing or using our website and services, you agree to comply with and be bound by these Terms.
+          These Terms and Conditions ("Terms") govern your use of our website and services provided by hoolicon ("Company," "we," "us," or "our"). By accessing or using our website and services, you agree to comply with and be bound by these Terms.
         </p>
 
         <h2 className={styles.sectionTitle}>ACCEPTANCE OF TERMS</h2>
@@ -41,7 +41,7 @@ const agreement = () => {
 
         <h2 className={styles.sectionTitle}>INTELLECTUAL PROPERTY</h2>
         <p className={styles.introductionText}>
-          All content and materials on our website are the intellectual property of Airnesy or our licensors. You may not use, reproduce, or distribute any content without our prior written permission.
+          All content and materials on our website are the intellectual property of hoolicon or our licensors. You may not use, reproduce, or distribute any content without our prior written permission.
         </p>
 
         <h2 className={styles.sectionTitle}>LIMITATION OF LIABILITY</h2>
@@ -56,14 +56,14 @@ const agreement = () => {
 
         <h2 className={styles.sectionTitle}>CONTACT US</h2>
         <p className={styles.introductionText}>
-          If you have any questions about these Terms, please contact us at info@airnesy.com.
+          If you have any questions about these Terms, please contact us at info@hoolicon.com.
         </p>
       </section>
 
       {/* Footer Section */}
       <footer className={styles.footer}>
         <p className={styles.footerText}>
-          © 2024 Airnesy. All rights reserved. | <a href="/terms-and-conditions">Terms and Conditions</a>
+          © 2024 hoolicon. All rights reserved. | <a href="/terms-and-conditions">Terms and Conditions</a>
         </p>
       </footer>
     </div>

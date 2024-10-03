@@ -7,7 +7,7 @@ const privacy = () => {
       {/* Hero Section */}
       <section className={styles.hero}>
         <h1 className={styles.heroTitle}>PRIVACY POLICY</h1>
-        <p className={styles.heroSubtitle}>Airnesy Privacy Policy Notice</p>
+        <p className={styles.heroSubtitle}>hoolicon Privacy Policy Notice</p>
       </section>
 
       {/* Mission Statement Section */}
@@ -16,18 +16,18 @@ const privacy = () => {
         <p className={styles.missionText}>
           Last updated September 4th, 2024
 
-          This privacy notice for Airnesy (doing business as Airnesy) (“Company,” “we,” “us,” or “our“), describes how and why we might collect, store, use, 
+          This privacy notice for hoolicon (doing business as hoolicon) (“Company,” “we,” “us,” or “our“), describes how and why we might collect, store, use, 
           and/or share (“process“) your information when you use our services (“Services“), such as when you:
         </p>
 
         <ul className={styles.policyList}>
-          <li>Visit our website at [ https://www.airnesy.com], or any website of ours that links to this privacy notice</li>
-          <li>Download and use our application(s), such as our mobile application — [Airnesy mobile app], or any other application of ours that links to this privacy notice</li>
+          <li>Visit our website at [ https://www.hoolicon.com], or any website of ours that links to this privacy notice</li>
+          <li>Download and use our application(s), such as our mobile application — [hoolicon mobile app], or any other application of ours that links to this privacy notice</li>
           <li>Engage with us in other related ways ― including any sales, marketing, or events</li>
         </ul>
 
         <p className={styles.missionText}>
-          Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at info@airnesy.com.
+          Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at info@hoolicon.com.
         </p>
 
         <h2 className={styles.missionTitle}>SUMMARY OF KEY POINTS</h2>
@@ -37,7 +37,7 @@ const privacy = () => {
         </p>
 
         <ul className={styles.policyList}>
-          <li><b>What personal information do we process?</b> <br />When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Airnesy and the Services, the choices you make, and the products and features you use.</li>
+          <li><b>What personal information do we process?</b> <br />When you visit, use, or navigate our Services, we may process personal information depending on how you interact with hoolicon and the Services, the choices you make, and the products and features you use.</li>
           <li><b>Do we process any sensitive personal information?</b> <br />[We do not process sensitive personal information. / We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law.]</li>
           <li><b>Do you receive any information from third parties?</b> <br />We may receive information from public databases, marketing partners, social media platforms, and other outside sources.</li>
           <li><b>How do you process my information?</b> <br />We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.</li>
@@ -51,7 +51,7 @@ const privacy = () => {
       <section className={styles.mission2}>
         <h2 className={styles.missionTitle}> Contact Us</h2>
         <p className={styles.missionText}>
-          Email: info@airnesy.com <br />
+          Email: info@hoolicon.com <br />
           Contact: +254 703394794
         </p>
       </section>
@@ -59,7 +59,7 @@ const privacy = () => {
       {/* Footer Section */}
       <footer className={styles.footer}>
         <p className={styles.footerText}>
-          © 2024 Airnesy. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a>
+          © 2024 hoolicon. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a>
         </p>
       </footer>
     </div>

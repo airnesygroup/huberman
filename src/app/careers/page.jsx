@@ -26,7 +26,7 @@ const Careers = () => {
 
       <h2 className={styles.missionTitle}> Contact Us</h2>
   <p className={styles.missionText}>
-  Email: info@airnesy.com <br />
+  Email: info@hoolicon.com <br />
   contact: +254 703394794
   </p>
 
@@ -37,7 +37,7 @@ const Careers = () => {
       {/* Footer Section */}
       <footer className={styles.footer}>
         <p className={styles.footerText}>
-          © 2024 Airnesy. All rights reserved. | <a href="/privacy">Privacy Policy</a>
+          © 2024 hoolicon. All rights reserved. | <a href="/privacy">Privacy Policy</a>
         </p>
       </footer>
     </div>

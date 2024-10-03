@@ -9,12 +9,12 @@ const Footer = () => {
       <div className={styles.info}>
       <Link href="/">
           <div className={styles.logo}>
-            <Image src="/logo1.png" alt="airnesy logo" layout="fill" className={styles.logoImage} />
-            <h1 className={styles.logoText}>Airnesy</h1>
+            <Image src="/logo1.png" alt="hoolicon logo" layout="fill" className={styles.logoImage} />
+            <h1 className={styles.logoText}>hoolicon</h1>
           </div>
         </Link>
         <p className={styles.desc}>
-        Airnesy – Discover what’s trending now. From viral sensations to breaking news,
+        hoolicon – Discover what’s trending now. From viral sensations to breaking news,
          join millions of viewers and stay in tune with the moments that matter most.
           Explore the hottest trends with all the live commentary.
         </p>
@@ -36,8 +36,8 @@ const Footer = () => {
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>
-          <Link href="https://www.tiktok.com/@Airnesy">Tiktok </Link>
-          <Link href="https://www.youtube.com/@Airnesy">Youtube </Link>
+          <Link href="https://www.tiktok.com/@hoolicon">Tiktok </Link>
+          <Link href="https://www.youtube.com/@hoolicon">Youtube </Link>
 
         </div>
       </div>

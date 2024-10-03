@@ -24,7 +24,7 @@ const Comments = ({ postSlug }) => {
   const { status } = useSession();
 
   const { data, mutate, isLoading } = useSWR(
-    `https://www.airnesy.com/api/comments?postSlug=${postSlug}`,
+    `https://www.hoolicon.com/api/comments?postSlug=${postSlug}`,
     fetcher
   );
 

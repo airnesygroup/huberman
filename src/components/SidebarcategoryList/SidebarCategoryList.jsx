@@ -13,7 +13,7 @@ import { ThemeContext } from "@/context/ThemeContext";
 
 const getData = async () => {
   try {
-    const res = await fetch("https://www.airnesy.com/api/categories", {
+    const res = await fetch("https://www.hoolicon.com/api/categories", {
       cache: "no-store",
     });
 

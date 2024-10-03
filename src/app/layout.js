@@ -11,8 +11,8 @@ import Controls from "@/components/Controls";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Airnesy - What's trending",
-  description: "Airnesy – Discover what’s trending now. From viral sensations to breaking news, join millions of viewers and stay in tune with the moments that matter most. Explore the hottest trends with all the live commentary.",
+  title: "hoolicon - What's trending",
+  description: "hoolicon – Discover what’s trending now. From viral sensations to breaking news, join millions of viewers and stay in tune with the moments that matter most. Explore the hottest trends with all the live commentary.",
 };
 
 export default function RootLayout({ children }) {

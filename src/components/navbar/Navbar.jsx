@@ -51,8 +51,8 @@ const Navbar = () => {
       <div className={styles.wrapper}>
         <Link href="/">
           <div className={styles.logo}>
-            <Image src="/logo1.png" alt="airnesy logo" layout="fill" className={styles.logoImage} />
-            <h1 className={styles.logoText}>Airnesy</h1>
+            <Image src="/logo1.png" alt="hoolicon logo" layout="fill" className={styles.logoImage} />
+            <h1 className={styles.logoText}>hoolicon</h1>
 
           </div>
         </Link>

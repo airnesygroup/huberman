@@ -296,6 +296,8 @@ const SidebarCategoryList = () => {
         <GavelOutlined className={styles.icon} size="lg" />
         User Agreement
       </button>
+      
+
     </div>
   );
 };

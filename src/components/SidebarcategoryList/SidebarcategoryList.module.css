@@ -16,6 +16,8 @@
   border-radius: 5px;
   margin-bottom: 10px;
   display: flex;
+  align-items: flex-start;
+
   cursor: pointer;
   font-size: medium;
 }
@@ -95,6 +97,8 @@
   margin-bottom: 5px;
   text-decoration: none;
   color: var(--textColor);
+  align-items: flex-end;
+
 }
 
 .subcategory:hover {

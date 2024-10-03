@@ -232,7 +232,7 @@ const SidebarCategoryList = () => {
             <span className={styles.icon2} >
             
             {item.title} </span>
-            <span>⌄</span>
+            <span className={styles.chevron2} >⌄</span>
           </button>
           {openDropdowns[item.slug] && (
             <div className={styles.subcategories}>

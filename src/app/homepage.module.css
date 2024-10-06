@@ -9,7 +9,10 @@
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  padding: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.4%;
+
 }
 
 /* src/app/homepage.module.css */
@@ -107,9 +110,17 @@
     display: none;
   }
 
+
+  .container {
+    padding-left: 0;
+  padding-right: 0;
+  }
+
   .mainContent {
     margin-left: 0; /* Ensure no margin is applied */
     padding-left: 0; /* Ensure no padding is applied */
+    padding-top: 0;
+
   }
 
   .content1 {

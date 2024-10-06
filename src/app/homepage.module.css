@@ -83,11 +83,11 @@
   margin-left: 300px; /* Account for fixed menu */
   flex: 1;
   display: flex;
-  max-width: 1400px;
+  max-width: 1300px;
   flex-direction: column;
   min-height: 100vh; /* Ensure full height */
   overflow-y: auto; /* Scrollable content */
-  padding-left: 12%;
+  padding-left: 11%;
 }
 
 @media screen and (max-width: 1024px) {

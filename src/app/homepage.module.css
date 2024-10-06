@@ -90,7 +90,7 @@
   flex-direction: column;
   min-height: 100vh; /* Ensure full height */
   overflow-y: auto; /* Scrollable content */
-  padding-left: 11%;
+  padding-left: 11.5%;
 }
 
 @media screen and (max-width: 1024px) {

@@ -3,14 +3,14 @@
 }
 
 .title {
-  margin: 28px 0px; /* Default margin for larger screens */
+  margin-top: 10px; /* Default margin for larger screens */
   font-size: 1.25rem; /* Default font size for larger screens */
 }
 
 /* For medium screens (tablets) */
 @media (max-width: 1000px) {
   .title {
-    margin: 20px 0px; /* Reduced margin for medium screens */
+    margin-top: 8px; /* Default margin for larger screens */
     font-size: 1.0rem; /* Smaller font size for medium screens */
   }
 }
@@ -18,7 +18,7 @@
 /* For small screens (mobile devices) */
 @media (max-width: 720px) {
   .title {
-    margin: 10px 0px; /* Further reduced margin for small screens */
+    margin-top: 5px; /* Default margin for larger screens */
     font-size: 0.75rem; /* Even smaller font size for small screens */
   }
 }

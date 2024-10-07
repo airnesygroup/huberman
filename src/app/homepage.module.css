@@ -9,8 +9,7 @@
   display: flex;
   flex-wrap: nowrap;
   max-width: 1500px;
-  margin: 0 auto; /* Center the entire container */
-  padding-right: 20px; /* Optional: add padding for spacing */
+  margin-right: auto;
   position: relative; /* Keeps the layout flexible */
 }
 

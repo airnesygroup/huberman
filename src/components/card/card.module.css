@@ -75,14 +75,14 @@
 }
 
 .username {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   margin: 0;
   color: var(--softTextColor);
 }
 
 .userRole {
-  font-size: 12px;
+  font-size: 11px;
   margin: 0;
 }
 
@@ -128,14 +128,14 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 0.5%;
 }
 
 .desc {
-  font-size: 16px;
+  font-size: 15px;
   padding-top: 4px;
   padding-bottom: 0.5%px;
   color: var(--softTextColor);
@@ -251,7 +251,7 @@ display: none;
   }
 
   .username {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .userRole {
@@ -259,12 +259,12 @@ display: none;
   }
 
   .title2 {
-    font-size: 15px;
+    font-size: 14px;
     padding-top: 0;
   }
 
   .desc2 {
-    font-size: 14px;
+    font-size: 13px;
     padding-top: 0;
     padding-bottom: 4px;
   }

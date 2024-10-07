@@ -83,10 +83,15 @@ padding-bottom: 30px;
   margin-left: 300px; /* Account for fixed menu */
   flex: 1;
   display: flex;
+  margin-right: auto; /* Ensure right margin is auto */
+  margin-left: auto; /* Ensure right margin is auto */
+
   flex-direction: column;
   min-height: 100vh; /* Ensure full height */
   overflow-y: auto; /* Scrollable content */
   padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 @media screen and (max-width: 1024px) {

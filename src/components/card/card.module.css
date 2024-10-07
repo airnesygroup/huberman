@@ -160,6 +160,7 @@
   width: 100%;
   border-radius: 15px;
   border: 1px solid var(--softTextColor3); /* Set the border to var(--softTextColor) */
+  padding-top: 0.5%;
 
   overflow: hidden;
 }
@@ -274,6 +275,8 @@ display: none;
   min-height: 50px;
     width: 100%; /* Make sure the image container takes the full width */
   border-radius: 11px;
+  padding-top: 0;
+
 }
 
 .imageBackground {

@@ -66,7 +66,7 @@ const MenuPosts = ({ item, withImage }) => {
             </div>
           )}
           {categoryClass && (
-            <span className={`${styles.category} ${styles[categoryClass]}`}>
+            <span className={`${styles.category} `}>
               {item.catSlug}
             </span>
           )}

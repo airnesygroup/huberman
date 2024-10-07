@@ -54,6 +54,13 @@ className={styles.verifiedIcon}
                 </div>
               </div>
             </div>
+
+            {categoryClass && (
+            <span className={`${styles.category}`}>
+              {item.catSlug}
+            </span>
+          )}
+
             <span className={styles.span}>...</span>
           </div>
           <h1 className={styles.title}>{item.title.substring(0, 150)}</h1>

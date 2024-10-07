@@ -60,12 +60,12 @@
 /* Styling for the category name */
 /* Styling for the category name */
 .category {
-  padding: 3px 8px;
+  padding: 5px 12px;
   border-radius: 10px;
   font-size: 10px;
   color: #ffffff;
   width: max-content;
-  background-color: #FF4500;
+  background-color: #10028f;
 
 }
 

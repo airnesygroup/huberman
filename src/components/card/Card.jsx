@@ -36,8 +36,8 @@ const Card = ({ key, item }) => {
                     src={item.user?.image}
                     alt={item.user?.name}
                     className={styles.profileImage2}
-                    width={25}
-                    height={25}
+                    width={30}
+                    height={30}
                   />
                   <div className={styles.userInfo}>
                     <p className={styles.username}>{item.user?.name}</p>

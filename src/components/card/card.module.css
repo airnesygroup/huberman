@@ -109,7 +109,7 @@
 .category {
   color: #ffffff;
   border-radius: 10px;
-  background-color: rgb(12, 158, 36);
+  background-color: #FF4500;
   font-size: 12px;
   margin-bottom: -10px;
   margin-right: -400px;
@@ -128,7 +128,7 @@
 .title {
   font-size: 18px;
   font-weight: bold;
-  padding-top: 6px;
+  padding-top: 10px;
   padding-bottom: 0.5%;
 }
 

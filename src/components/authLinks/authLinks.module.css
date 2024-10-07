@@ -1,8 +1,9 @@
 .link {
   cursor: pointer;
   background-color: #FF4500;
-  border-radius: 15px;
-  padding: 5px 10px; /* Combine padding for left and right */
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 7px 12px; /* Combine padding for left and right */
   color: #fff;
   display: inline-block; /* Ensures the button fits the content */
 }
@@ -74,7 +75,7 @@
   .logout2 {
     cursor: pointer;
     background-color: #FF4500;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 5px 10px; /* Increase left and right padding */
     color: #fff;
     align-self: flex-start; /* Prevents the item from stretching */

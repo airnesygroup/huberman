@@ -65,11 +65,9 @@ const MenuPosts = ({ item, withImage }) => {
               )}
             </div>
           )}
-          {categoryClass && (
-            <span className={`${styles.category} `}>
-              {item.catSlug}
-            </span>
-          )}
+             <span className={styles.category}>{item.catSlug}</span>
+
+        
         </div>
         <div className={styles.textContainer}>
           <h3 className={styles.postTitle}>{item.title.substring(0, 50)}</h3>

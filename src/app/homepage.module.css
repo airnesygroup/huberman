@@ -81,7 +81,8 @@ padding-bottom: 30px;
 
 /* Keep existing styles for the mainContent and media queries */
 .mainContent {
-
+  margin-left: 300px; /* Account for fixed menu */
+ 
 
   flex: 1; /* Allow mainContent to take up the remaining space */
   display: flex;

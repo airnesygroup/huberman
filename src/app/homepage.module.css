@@ -4,16 +4,15 @@
   padding-left: 1.5%;
 }
 /* homepage.module.css */
-
-
 /* Adjustments to container when the sidebar is visible */
 .container {
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  max-width: 1500px;
+  max-width: 1400px;
   margin-left: 250px; /* Account for sidebar width */
   margin-right: auto; /* Ensure right margin is auto */
+  padding-right: 20px; /* Optional: add padding if desired */
 }
 
 

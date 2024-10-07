@@ -1,62 +1,54 @@
+
+
+
+
 import prisma from "@/utils/connect";
 import { NextResponse } from "next/server";
 
 // Function to get random shuffled array
 const shuffleArray = (array) => {
-  return array.sort(() => Math.random() - 0.5000000);
+  return array.sort(() => Math.random() - 0.5);
 };
 
 export const GET = async (req) => {
   const { searchParams } = new URL(req.url);
   const cat = searchParams.get("cat");
 
+  // Get the bunchIndex from the query parameters (defaults to 0)
+  const bunchIndex = parseInt(searchParams.get("bunchIndex") || "0", 10);
+
   const POST_PER_PAGE = 1000;
 
-  // Get the current time
+  // Calculate the time range for the requested bunch (24-hour period)
   const now = new Date();
+  const endTime = new Date(now.getTime() - bunchIndex * 24 * 60 * 60 * 1000);
+  const startTime = new Date(endTime.getTime() - 24 * 60 * 60 * 1000);
+
+  console.log(`Fetching posts from ${startTime.toISOString()} to ${endTime.toISOString()}`);
 
   try {
-    const allPosts = [];
-    let currentTime = now;
-    let periodIndex = 0;
-
-    while (periodIndex < 5000000) { // Fetch posts from 5 days worth of 24-hour periods (adjust as needed)
-      // Calculate the time range for the current 24-hour period
-      const endTime = currentTime;
-      const startTime = new Date(currentTime.getTime() - 24 * 60 * 60 * 1000);
-
-      // Fetch posts for this 24-hour period
-      const posts = await prisma.post.findMany({
-        take: POST_PER_PAGE,
-        where: {
-          ...(cat && { catSlug: cat }),
-          createdAt: {
-            gte: startTime,
-            lt: endTime,
-          },
+    // Fetch posts for this 24-hour period
+    const posts = await prisma.post.findMany({
+      take: POST_PER_PAGE,
+      where: {
+        ...(cat && { catSlug: cat }),
+        createdAt: {
+          gte: startTime,
+          lt: endTime, // Ensure posts are from this exact 24-hour period
         },
-        include: {
-          user: true, // Include user details
-        },
-        orderBy: {
-          createdAt: "desc", // Fetch posts ordered by latest first
-        },
-      });
+      },
+      include: {
+        user: true, // Include user details
+      },
+      orderBy: {
+        createdAt: "desc", // Fetch posts ordered by latest first
+      },
+    });
 
-      // Shuffle the posts within this 24-hour period
-      const shuffledPosts = shuffleArray(posts);
+    // Shuffle the posts within this 24-hour period
+    const shuffledPosts = shuffleArray(posts);
 
-      // Add the shuffled posts to the overall post list
-      allPosts.push(...shuffledPosts);
-
-      // Move to the previous 24-hour period
-      currentTime = startTime;
-      periodIndex++;
-    }
-
-    console.log("All Posts:", allPosts);
-
-    return new NextResponse(JSON.stringify({ posts: allPosts, count: allPosts.length }), { status: 200 });
+    return new NextResponse(JSON.stringify({ posts: shuffledPosts, count: shuffledPosts.length }), { status: 200 });
   } catch (err) {
     console.error("Error fetching posts:", err);
     return new NextResponse(
@@ -65,4 +57,7 @@ export const GET = async (req) => {
     );
   }
 };
+
+
+ 
 

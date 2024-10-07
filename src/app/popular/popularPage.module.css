@@ -1,7 +1,7 @@
 .content1{
   display: flex;
   gap: 50px;
-  padding-left: 1.5%;
+  padding-left: 10%;
 }
 /* homepage.module.css */
 
@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  max-width: 1300px;
+  max-width: 1400px;
 
   
 }

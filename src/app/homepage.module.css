@@ -8,12 +8,12 @@
 .container {
   display: flex;
   flex-wrap: nowrap;
+  position: relative;
   max-width: 1400px;
-  margin: 0 auto; /* Center the entire container */
-  padding-right: 20px; /* Optional: add padding for spacing */
-  position: relative; /* Keeps the layout flexible */
+  margin-left: 250px; /* Account for sidebar width */
+  margin-right: auto; /* Ensure right margin is auto */
+  padding-right: 20px; /* Optional: add padding if desired */
 }
-
 
 
 /* src/app/homepage.module.css */

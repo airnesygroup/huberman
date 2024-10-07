@@ -16,6 +16,7 @@ export const GET = async (req) => {
     let bunchIndex = 0; // Start with the most recent 24-hour set
     let postsExist = true; // Flag to continue fetching while there are posts
 
+    // Loop to fetch posts until no more posts are found
     while (postsExist) {
       // Calculate the time range for the current 24-hour period
       const now = new Date();
@@ -45,13 +46,13 @@ export const GET = async (req) => {
       if (posts.length === 0) {
         postsExist = false;
       } else {
-        // Shuffle the posts within this 24-hour period and append to allPosts
-        allPosts = allPosts.concat(shuffleArray(posts));
+        // Append the found posts to allPosts
+        allPosts = allPosts.concat(posts);
         bunchIndex++; // Move to the previous 24-hour set
       }
     }
 
-    // Return the combined shuffled posts from all sets
+    // Return the combined posts from all sets
     return new NextResponse(JSON.stringify({ posts: allPosts, count: allPosts.length }), { status: 200 });
   } catch (err) {
     console.error("Error fetching posts:", err);
@@ -61,3 +62,4 @@ export const GET = async (req) => {
     );
   }
 };
+

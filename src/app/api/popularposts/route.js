@@ -8,10 +8,10 @@ export const GET = async (req) => {
   const page = 1;
   const cat = searchParams.get("cat");
 
-  const POST_PER_PAGE = 1000;
+  const POST_PER_PAGE = 1000000;
 
   // Calculate the timestamp for 24 hours ago
-  const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
+  const twentyFourHoursAgo = new Date(Date.now() - 168 * 60 * 60 * 1000);
   console.log("24 hours ago:", twentyFourHoursAgo.toISOString());
 
   try {

@@ -41,6 +41,8 @@
 .menu {
   position: fixed;
   width: 250px;
+  margin-right: 300px; /* Account for fixed menu */
+
   max-height: 89vh; /* Full height */
   z-index: 0;
   overflow-y: hidden; /* Scrollable content */
@@ -80,15 +82,13 @@ padding-bottom: 30px;
 
 /* Keep existing styles for the mainContent and media queries */
 .mainContent {
-  margin-left: 300px; /* Account for fixed menu */
- 
+  
 
   flex: 1; /* Allow mainContent to take up the remaining space */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   overflow-y: auto; /* Allow scrolling for long content */
-  padding-left: 0; /* Remove unnecessary padding */
 }
 
 @media screen and (max-width: 1024px) {

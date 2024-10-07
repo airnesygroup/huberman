@@ -20,7 +20,7 @@ export const GET = async (req) => {
     let currentTime = now;
     let periodIndex = 0;
 
-    while (periodIndex < 5) { // Fetch posts from 5 days worth of 24-hour periods (adjust as needed)
+    while (periodIndex < 5000000) { // Fetch posts from 5 days worth of 24-hour periods (adjust as needed)
       // Calculate the time range for the current 24-hour period
       const endTime = currentTime;
       const startTime = new Date(currentTime.getTime() - 24 * 60 * 60 * 1000);

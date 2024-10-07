@@ -10,7 +10,6 @@ export const GET = async (req) => {
   const { searchParams } = new URL(req.url);
   const cat = searchParams.get("cat");
 
-  const POST_PER_PAGE = 1000; // Limit of posts fetched per 24-hour set
   let allPosts = []; // To store all the posts from multiple 24-hour sets
 
   try {
@@ -27,7 +26,6 @@ export const GET = async (req) => {
 
       // Fetch posts for this 24-hour period
       const posts = await prisma.post.findMany({
-        take: POST_PER_PAGE,
         where: {
           ...(cat && { catSlug: cat }),
           createdAt: {

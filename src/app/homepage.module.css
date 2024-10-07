@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  max-width: 1300px;
+  max-width: 1400px;
 
   
 }
@@ -86,7 +86,7 @@ padding-bottom: 30px;
   flex-direction: column;
   min-height: 100vh; /* Ensure full height */
   overflow-y: auto; /* Scrollable content */
-  padding-left: 1%;
+  padding-left: 3%;
 }
 
 @media screen and (max-width: 1024px) {

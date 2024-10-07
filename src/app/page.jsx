@@ -10,6 +10,7 @@ import Trending from "@/components/Trending";
 import AddIcon from "@/components/Addicon";
 import CardList2 from "@/components/cardList2/CardList2";
 import Footer from "@/components/footer/Footer";
+import CardList from "@/components/cardList/CardList";
 import Navbar from "@/components/navbar/Navbar";
 import AddIcon2 from "@/components/Addicon2";
 
@@ -37,7 +38,7 @@ export default function Home({ searchParams }) {
           <CarouselList page={page} />
   
           <div className={styles.content1}>
-            <CardList2 page={page} />
+            <CardList page={page} />
   
             <Menu />
           </div>

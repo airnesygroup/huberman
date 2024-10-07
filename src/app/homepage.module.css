@@ -40,7 +40,7 @@
 .menu {
   position: fixed;
   width: 250px;
-  border-left:  1px solid var(--softTextColor3);
+  border-right:  1px solid var(--softTextColor3);
   max-height: 89vh; /* Full height */
   z-index: 0;
   overflow-y: hidden; /* Scrollable content */

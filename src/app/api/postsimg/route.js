@@ -42,15 +42,18 @@ export const GET = async (req) => {
         },
       });
 
-      // If no posts were found, stop fetching
-      if (posts.length === 0) {
-        postsExist = false;
-      } else {
-        // Append the found posts to allPosts
+      // If posts were found, append them to allPosts
+      if (posts.length > 0) {
         allPosts = allPosts.concat(posts);
         bunchIndex++; // Move to the previous 24-hour set
+      } else {
+        // No more posts found, stop fetching
+        postsExist = false;
       }
     }
+
+    // Shuffle all posts before returning
+    allPosts = shuffleArray(allPosts);
 
     // Return the combined posts from all sets
     return new NextResponse(JSON.stringify({ posts: allPosts, count: allPosts.length }), { status: 200 });
@@ -62,4 +65,3 @@ export const GET = async (req) => {
     );
   }
 };
-

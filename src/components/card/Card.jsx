@@ -55,7 +55,8 @@ className={styles.verifiedIcon}
               </div>
             </div>
 
-      
+            <span className={styles.span}>...</span>
+
             <span className={styles.category}>{item.catSlug}</span>
 
 

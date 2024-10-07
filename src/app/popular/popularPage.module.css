@@ -9,6 +9,8 @@
   display: flex;
   flex-wrap: nowrap;
   position: relative;
+  max-width: 1000px;
+
   
 }
 
@@ -123,4 +125,5 @@ padding-bottom: 30px;
   gap: 50px;
   flex: 1;
   overflow-x: hidden; /* Prevent horizontal overflow */
+  
 }

@@ -48,6 +48,8 @@ a {
   --softTextColor: #c9caca;
   --softTextColor2: #8899A6;
   --softTextColor3: #202429;
+  --softTextColor4: #2a2f35;
+
 
 
 
@@ -64,6 +66,7 @@ a {
   --softerBg: #f5f6f8;
   --softTextColor2: #657786;
   --softTextColor3: #d2e0eb;
+  --softTextColor4: #dce6ee;
 
   --softTextColor: #3e3f3f;
 }

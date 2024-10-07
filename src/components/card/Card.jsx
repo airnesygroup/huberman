@@ -55,11 +55,9 @@ className={styles.verifiedIcon}
               </div>
             </div>
 
-            {categoryClass && (
-            <span className={`${styles.category}`}>
-              {item.catSlug}
-            </span>
-          )}
+      
+            <span className={styles.category}>{item.catSlug}</span>
+
 
             <span className={styles.span}>...</span>
           </div>

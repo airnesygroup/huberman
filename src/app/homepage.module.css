@@ -8,11 +8,12 @@
 .container {
   display: flex;
   flex-wrap: nowrap;
-  position: relative;
   max-width: 1500px;
-
-  
+  margin: 0 auto; /* Center the entire container */
+  padding-right: 20px; /* Optional: add padding for spacing */
+  position: relative; /* Keeps the layout flexible */
 }
+
 
 /* src/app/homepage.module.css */
 .trendingWrapper {
@@ -80,13 +81,14 @@ padding-bottom: 30px;
 
 /* Keep existing styles for the mainContent and media queries */
 .mainContent {
-  margin-left: 300px; /* Account for fixed menu */
-  flex: 1;
+
+
+  flex: 1; /* Allow mainContent to take up the remaining space */
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure full height */
-  overflow-y: auto; /* Scrollable content */
-  padding-left: 5%;
+  min-height: 100vh;
+  overflow-y: auto; /* Allow scrolling for long content */
+  padding-left: 0; /* Remove unnecessary padding */
 }
 
 @media screen and (max-width: 1024px) {
